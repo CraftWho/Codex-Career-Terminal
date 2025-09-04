@@ -1,4 +1,5 @@
-// 🧙🏾 RPG Profile Data
+window.addEventListener('DOMContentLoaded', () => {
+// 🧑🏾‍💼 RPG Profile Data
 const profile = {
   name: "Leo Antoine",
   title: "Codex Architect",
@@ -45,3 +46,4 @@ if (profile.dp >= profile.nextLevelDP) {
 
 // 🛠 Patch Notes
 document.getElementById("patch-info").textContent = profile.patchNote;
+});
