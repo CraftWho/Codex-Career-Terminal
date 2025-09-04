@@ -1,74 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>📊 Codex Career Terminal</title>
+  <title>🧙🏾 Codex Career Terminal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>📊 Codex Career Terminal</h1>
+    <h1>🧙🏾 Codex Career Terminal</h1>
     <nav>
       <ul>
-        <li><a href="#skill-tree">Skill Tree</a></li>
-        <li><a href="#quest-log">Quest Log</a></li>
-        <li><a href="#codex">Codex</a></li>
+        <li><a href="../quest-log.md">📜 Quest Log</a></li>
+        <li><a href="../skill-tree.md">🌿 Skill Tree</a></li>
+        <li><a href="../codex.md">📚 Codex</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="container">
-    <!-- Skill Tree Section -->
-    <section id="skill-tree" aria-labelledby="skill-tree-heading">
-      <h2 id="skill-tree-heading">🧠 Skill Tree</h2>
-      <ul id="skills"></ul>
+    <h2>Welcome, Strategist</h2>
+    <p>This is a modular interface built in VS Code. It serves as the visual gateway to my developer questline.</p>
+
+    <section id="rpg-stats">
+      <h3>🧙🏾 Current Status</h3>
+      <ul>
+        <li><strong>Name:</strong> <span id="name">Leo</span></li>
+        <li><strong>Level:</strong> <span id="level">1</span></li>
+        <li><strong>Title:</strong> <span id="title">Codex Architect</span></li>
+        <li><strong>DP:</strong> <span id="dp">100</span></li>
+        <li><strong>Next Level:</strong> <span id="nextLevelDP">300</span> DP</li>
+      </ul>
     </section>
 
-    <!-- Quest Log Section -->
-    <section id="quest-log" aria-labelledby="quest-log-heading">
-      <h2 id="quest-log-heading">📜 Quest Log</h2>
-      <dl>
-        <div>
-          <dt>Name:</dt>
-          <dd id="name"></dd>
-        </div>
-        <div>
-          <dt>Title:</dt>
-          <dd id="title"></dd>
-        </div>
-        <div>
-          <dt>XP:</dt>
-          <dd id="dp"></dd>
-        </div>
-        <div>
-          <dt>Next Level:</dt>
-          <dd><span id="nextlevelDP"></span> XP</dd>
-        </div>
-      </dl>
+    <section id="skills-unlocked">
+      <h3>🧠 Skills Unlocked</h3>
+      <ul id="skills">
+        <li>HTML Structure</li>
+        <li>CSS Styling</li>
+        <li>Git Workflow</li>
+      </ul>
     </section>
 
-    <!-- Codex Section -->
-    <section id="codex" aria-labelledby="codex-heading">
-      <h2 id="codex-heading">📚 Codex</h2>
-      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
-        <div class="fill"></div>
+    <section class="progress">
+      <h3>📈 DP Progress</h3>
+      <div class="progress-bar">
+        <div class="fill" style="width: 33%;"></div>
       </div>
-      <p id="progress-text"></p>
+      <p>100 / 300 DP to Level 2</p>
     </section>
 
-    <!-- Launch Protocol Section -->
-    <section id="full-send" aria-labelledby="send-heading">
-      <h2 id="send-heading">🚀 Launch Protocol</h2>
-      <button id="full-send-button">Full Send!</button>
-    </section>
+    <button onclick="window.location.href='../achievements/index.html'">Trophies</button>
   </main>
 
   <footer>
-    <section aria-labelledby="patch-heading">
-      <h2 id="patch-heading">🛠 Patch Notes</h2>
-      <p id="patch-info">Patch loading...</p>
-    </section>
+    <p id="patch-info">🛠 v0.1 — Interface scaffolded and styled</p>
   </footer>
 
   <script src="script.js"></script>

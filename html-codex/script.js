@@ -1,63 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>🧙🏾 Codex Career Terminal</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>🧙🏾 Codex Career Terminal</h1>
-    <nav>
-      <ul>
-        <li><a href="../quest-log.md">📜 Quest Log</a></li>
-        <li><a href="../skill-tree.md">🌿 Skill Tree</a></li>
-        <li><a href="../codex.md">📚 Codex</a></li>
-      </ul>
-    </nav>
-  </header>
+// RPG Profile Data
+const profile = {
+  name: "Leo Antoine",
+  title: "Codex Architect",
+  xp: 100,
+  nextLevelXP: 300,
+  skills: ["HTML Structure", "CSS Styling", "Git Workflow"],
+  codexEntry: "Currently building Chapter 1: Brainchip Bootstrap. Focused on modular layout and recruiter-facing polish."
+};
 
-  <main class="container">
-    <h2>Welcome, Strategist</h2>
-    <p>This is a modular interface built in VS Code. It serves as the visual gateway to my developer questline.</p>
+// Auto-update Quest Log
+document.getElementById("name").textContent = profile.name;
+document.getElementById("title").textContent = profile.title;
+document.getElementById("xp").textContent = profile.xp;
+document.getElementById("nextLevelXP").textContent = profile.nextLevelXP;
 
-    <section id="rpg-stats">
-      <h3>🧙🏾 Current Status</h3>
-      <ul>
-        <li><strong>Name:</strong> <span id="name">Leo</span></li>
-        <li><strong>Level:</strong> <span id="level">1</span></li>
-        <li><strong>Title:</strong> <span id="title">Codex Architect</span></li>
-        <li><strong>DP:</strong> <span id="dp">100</span></li>
-        <li><strong>Next Level:</strong> <span id="nextLevelDP">300</span> DP</li>
-      </ul>
-    </section>
+// Auto-update Skill Tree
+const skillsList = document.getElementById("skills");
+profile.skills.forEach(skill => {
+  const li = document.createElement("li");
+  li.textContent = `🧠 ${skill}`;
+  skillsList.appendChild(li);
+});
 
-    <section id="skills-unlocked">
-      <h3>🧠 Skills Unlocked</h3>
-      <ul id="skills">
-        <li>HTML Structure</li>
-        <li>CSS Styling</li>
-        <li>Git Workflow</li>
-      </ul>
-    </section>
-
-    <section class="progress">
-      <h3>📈 DP Progress</h3>
-      <div class="progress-bar">
-        <div class="fill" style="width: 33%;"></div>
-      </div>
-      <p>100 / 300 DP to Level 2</p>
-    </section>
-
-    <button onclick="window.location.href='../achievements/index.html'">Trophies</button>
-  </main>
-
-  <footer>
-    <p id="patch-info">🛠 v0.1 — Interface scaffolded and styled</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+// Auto-update Codex
+document.getElementById("codex-entry").textContent = profile.codexEntry;
