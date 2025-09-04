@@ -1,33 +1,63 @@
-// Codex Profile Data
-const profile = {
-  name: "Leo",
-  level: 1,
-  title: "Codex Architect",
-  dp: 100,
-  nextLevelDP: 300,
-  skills: ["HTML Structure", "CSS Styling", "Git Workflow"],
-  codexProgress: "Building Chapter 1: Brainchip Bootstrap",
-  patchNote: "v0.1 — Interface scaffolded and styled"
-};
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🧙🏾 Codex Career Terminal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🧙🏾 Codex Career Terminal</h1>
+    <nav>
+      <ul>
+        <li><a href="../quest-log.md">📜 Quest Log</a></li>
+        <li><a href="../skill-tree.md">🌿 Skill Tree</a></li>
+        <li><a href="../codex.md">📚 Codex</a></li>
+      </ul>
+    </nav>
+  </header>
 
-// Update Quest Log
-document.getElementById("name").textContent = profile.name;
-document.getElementById("level").textContent = profile.level;
-document.getElementById("title").textContent = profile.title;
-document.getElementById("dp").textContent = profile.dp;
-document.getElementById("nextlevelDP").textContent = profile.nextLevelDP;
+  <main class="container">
+    <h2>Welcome, Strategist</h2>
+    <p>This is a modular interface built in VS Code. It serves as the visual gateway to my developer questline.</p>
 
-// Update Skill Tree
-const skillsList = document.getElementById("skills");
-profile.skills.forEach(skill => {
-  const li = document.createElement("li");
-  li.textContent = `🧠 ${skill}`;
-  skillsList.appendChild(li);
-});
+    <section id="rpg-stats">
+      <h3>🧙🏾 Current Status</h3>
+      <ul>
+        <li><strong>Name:</strong> <span id="name">Leo</span></li>
+        <li><strong>Level:</strong> <span id="level">1</span></li>
+        <li><strong>Title:</strong> <span id="title">Codex Architect</span></li>
+        <li><strong>DP:</strong> <span id="dp">100</span></li>
+        <li><strong>Next Level:</strong> <span id="nextLevelDP">300</span> DP</li>
+      </ul>
+    </section>
 
-// Update Codex Progress
-document.getElementById("progress-text").textContent = profile.codexProgress;
-document.querySelector(".fill").style.width = `${(profile.dp / profile.nextLevelDP) * 100}%`;
+    <section id="skills-unlocked">
+      <h3>🧠 Skills Unlocked</h3>
+      <ul id="skills">
+        <li>HTML Structure</li>
+        <li>CSS Styling</li>
+        <li>Git Workflow</li>
+      </ul>
+    </section>
 
-// Update Patch Notes
-document.getElementById("patch-info").textContent = profile.patchNote;
+    <section class="progress">
+      <h3>📈 DP Progress</h3>
+      <div class="progress-bar">
+        <div class="fill" style="width: 33%;"></div>
+      </div>
+      <p>100 / 300 DP to Level 2</p>
+    </section>
+
+    <button onclick="window.location.href='../achievements/index.html'">Trophies</button>
+  </main>
+
+  <footer>
+    <p id="patch-info">🛠 v0.1 — Interface scaffolded and styled</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
