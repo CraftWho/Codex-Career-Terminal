@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>📊 Codex Career Terminal</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <section class="status">
+    <h1><span id="title"></span></h1>
+    <p><strong>Name:</strong> <span id="name"></span></p>
+    <p><strong>DP:</strong> <span id="dp"></span></p>
+  </section>
+
+  <section class="skills">
+    <h2>Skills Unlocked</h2>
+    <ul id="skills"></ul>
+  </section>
+
+  <section class="progress">
+    <h2>DP Progress</h2>
+    <div class="progress-bar">
+      <div class="fill" id="dp-fill"></div>
+    </div>
+    <p id="progress-text">Loading DP...</p>
+    <p><strong>Next Level:</strong> <span id="nextLevelDP"></span> DP</p>
+  </section>
+
+  <section class="codex">
+    <h2>Codex Entry</h2>
+    <p id="codex-entry"></p>
+  </section>
+
+  <section class="patch">
+    <h2>Patch Notes</h2>
+    <p id="patch-info"></p>
+  </section>
+
+  <button id="trophies">Trophies</button>
+</body>
+</html>
