@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>📊 Codex Career Tracker</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>📊 Codex Career Terminal</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>📊 Codex Career Tracker</h1>
+    <h1>📊 Codex Career Terminal</h1>
     <nav>
       <ul>
         <li><a href="#skill-tree">Skill Tree</a></li>
@@ -18,11 +19,13 @@
   </header>
 
   <main class="container">
+    <!-- Skill Tree Section -->
     <section id="skill-tree" aria-labelledby="skill-tree-heading">
       <h2 id="skill-tree-heading">🧠 Skill Tree</h2>
       <ul id="skills"></ul>
     </section>
 
+    <!-- Quest Log Section -->
     <section id="quest-log" aria-labelledby="quest-log-heading">
       <h2 id="quest-log-heading">📜 Quest Log</h2>
       <dl>
@@ -31,24 +34,21 @@
           <dd id="name"></dd>
         </div>
         <div>
-          <dt>Level:</dt>
-          <dd id="level"></dd>
-        </div>
-        <div>
           <dt>Title:</dt>
           <dd id="title"></dd>
         </div>
         <div>
-          <dt>DP:</dt>
+          <dt>XP:</dt>
           <dd id="dp"></dd>
         </div>
         <div>
           <dt>Next Level:</dt>
-          <dd><span id="nextlevelDP"></span> DP</dd>
+          <dd><span id="nextlevelDP"></span> XP</dd>
         </div>
       </dl>
     </section>
 
+    <!-- Codex Section -->
     <section id="codex" aria-labelledby="codex-heading">
       <h2 id="codex-heading">📚 Codex</h2>
       <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
@@ -57,6 +57,7 @@
       <p id="progress-text"></p>
     </section>
 
+    <!-- Launch Protocol Section -->
     <section id="full-send" aria-labelledby="send-heading">
       <h2 id="send-heading">🚀 Launch Protocol</h2>
       <button id="full-send-button">Full Send!</button>

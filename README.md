@@ -1,6 +1,6 @@
 # 📊 Codex Career Terminal:Career Launch Arc
 
-Welcome, Strategist. This codex marks the beginning of my tactical development. I'm building a modular, RPG-inspired interface that tracks my progress, automates my workflow, and prepares me to land high-impact roles like the Junior Front End Developer Position at GDIT. Through HTML, CSS, Javascript, and React, I'll forge a living system-complete Status window with quest logs, skill trees, and AI guidance.
+Welcome, Strategist. This codex marks the beginning of my tactical development. I'm building a modular, RPG-inspired interface that tracks my progress, automates my workflow, and prepares me to land high-impact roles like the Junior Front End Developer position at GDIT. Through HTML, CSS, Javascript, and React, I'll forge a living system-complete Status interface with quest logs, skill trees, and AI guidance.
 
 ---
 
@@ -91,6 +91,15 @@ After completing each chapter:
 - Add key learnings to `codex.md`  
 - Log DP and patch notes  
 - Consider bonus challenges in the `side-quests/` folder
+
+---
+
+## 🧰 Tech Stack
+
+- HTML, CSS, Javascript
+- React (planned in Chapter 2)
+- Git & Github
+- Markdown for documentation
 
 ---
 
