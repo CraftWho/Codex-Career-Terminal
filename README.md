@@ -4,9 +4,9 @@ Welcome, Strategist. This codex marks the beginning of my tactical development. 
 
 ---
 
-## 🧙🏾‍♂️ Current Status
+## 🧑🏾‍💼 Current Status
 
-- **Class** 🧙🏾‍♂️ Codex Architect
+- **Class** 🧑🏾‍💼 Codex Architect
 - **Level**: 1
 - **Developer Points (DP):** 100
 - **Next Level:** Level 2 at 300 DP
@@ -74,7 +74,7 @@ Welcome, Strategist. This codex marks the beginning of my tactical development. 
 
 | Badge | Description |
 |-------|-------------|
-| 🧙🏾 `Codex Initiate` | Completed Chapter 1: Brainchip Bootstrap |
+| 🧑🏾‍💼 `Codex Initiate` | Completed Chapter 1: Brainchip Bootstrap |
 | 📜 `Semantic Strategist` | Mastered semantic HTML structure |
 | 🛠 `Modularity Master` | Refactored layout into modular sections |
 | 🧠 `Skill Tree Architect` | Created dynamic skill tracker |
@@ -114,6 +114,6 @@ Maintain visual consistency across builds using my preferred palette:
 
 ---
 
-## 🧙🏾 Final Note
+## 🧑🏾‍💼 Final Note
 
 This isn’t just a portfolio—it’s my Codex. Every line of code is a stat boost. Every chapter is a level earned. Every log is traceable. I’m building a system that proves my readiness, automates my growth, and guides my journey toward mastery.
