@@ -1,6 +1,6 @@
 # 📊 Codex Career Terminal:Career Launch Arc
 
-Welcome, Strategist. This codex marks the begining of my tactical development. I'm buildinng a modular, RPG-inspired interface that tracks my progress, automates my workflow, and prepares me to land high-impact roles like the Junior Front End Developer Position at GDIT. Through HTML, CSS, Javascript, and React, I'll Forge a living system-complete Status window with quest logs, skill trees, and AI guidance.
+Welcome, Strategist. This codex marks the beginning of my tactical development. I'm building a modular, RPG-inspired interface that tracks my progress, automates my workflow, and prepares me to land high-impact roles like the Junior Front End Developer Position at GDIT. Through HTML, CSS, Javascript, and React, I'll forge a living system-complete Status window with quest logs, skill trees, and AI guidance.
 
 ---
 
@@ -10,7 +10,7 @@ Welcome, Strategist. This codex marks the begining of my tactical development. I
 - **Level**: 1
 - **Developer Points (DP):** 100
 - **Next Level:** Level 2 at 300 DP
-- 🔗 [View DP Log](dp-log.md) | [View Skill Tree](skill-tree.md) | [Vieww Patch Notes](patch-notes.md)
+- 🔗 [View DP Log](dp-log.md) | [View Skill Tree](skill-tree.md) | [View Patch Notes](patch-notes.md)
 
 ---
 
