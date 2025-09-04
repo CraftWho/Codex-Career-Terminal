@@ -1,62 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>📊 Codex Career Tracker</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <h1>📊 Codex Career Tracker</h1>
+<head>
+  <meta charset="UTF-8">
+  <title>📊 Codex Career Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>📊 Codex Career Tracker</h1>
+    <nav>
+      <ul>
+        <li><a href="#skill-tree">Skill Tree</a></li>
+        <li><a href="#quest-log">Quest Log</a></li>
+        <li><a href="#codex">Codex</a></li>
+      </ul>
+    </nav>
+  </header>
 
-            <nav>
-                <ul>
-                    <li><a href="#dashboard">Dashboard</a></li>
-                    <li><a href="#analytics">Analytics</a></li>
-                    <li><a href="#settings">Settings</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <main class="container">
-    <!--  🧙🏾 RPG Stats -->
-    <section id="rpg-stats">
-        <h2>🧙🏾 Current Status</h2>
-        <ul>
-            <li><strong>Name:</strong> <span id="name"></span></li>
-        <li><strong>Level:</strong> <span id="level"></span></li>
-        <li><strong>Title:</strong> <span id="title"></span></li>
-        <li><strong>DP:</strong> <span id="dp"></span></li>
-        <li><strong>Next Level:</strong> <span id="nextlevelDP"></span> DP</li>
-        </ul>
+  <main class="container">
+    <section id="skill-tree" aria-labelledby="skill-tree-heading">
+      <h2 id="skill-tree-heading">🧠 Skill Tree</h2>
+      <ul id="skills"></ul>
     </section>
 
-    <!-- 📈 DP Progress -->
-     <section class="DP-progress">
-        <h2>📈 DP Progress</h2>
-        <div class="progress-bar">
-            <div class="fill"></div>
+    <section id="quest-log" aria-labelledby="quest-log-heading">
+      <h2 id="quest-log-heading">📜 Quest Log</h2>
+      <dl>
+        <div>
+          <dt>Name:</dt>
+          <dd id="name"></dd>
         </div>
-        <p id="progress-text"></p>
+        <div>
+          <dt>Level:</dt>
+          <dd id="level"></dd>
+        </div>
+        <div>
+          <dt>Title:</dt>
+          <dd id="title"></dd>
+        </div>
+        <div>
+          <dt>DP:</dt>
+          <dd id="dp"></dd>
+        </div>
+        <div>
+          <dt>Next Level:</dt>
+          <dd><span id="nextlevelDP"></span> DP</dd>
+        </div>
+      </dl>
     </section>
 
-    <!-- 🧠 Skills Unlocked -->
-     <section id="skills-unlocked">
-        <h2>🧠 Skills Unlocked</h2>
-        <ul id="skills"></ul>
+    <section id="codex" aria-labelledby="codex-heading">
+      <h2 id="codex-heading">📚 Codex</h2>
+      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="fill"></div>
+      </div>
+      <p id="progress-text"></p>
     </section>
 
-    <!-- 🚀 Full Send Button -->
-    <section id="full-send">
-        <button id="full-send-button">🚀 Full Send!</button>
+    <section id="full-send" aria-labelledby="send-heading">
+      <h2 id="send-heading">🚀 Launch Protocol</h2>
+      <button id="full-send-button">Full Send!</button>
     </section>
+  </main>
 
-    <!-- 🛠 Patch Notes -->
-    <footer>
-        <p id="patch-info">🛠 Patch loading...</p>
-    </footer>
+  <footer>
+    <section aria-labelledby="patch-heading">
+      <h2 id="patch-heading">🛠 Patch Notes</h2>
+      <p id="patch-info">Patch loading...</p>
+    </section>
+  </footer>
 
-    <script src="script.js"></script>
-    <img src="https://roadtovrlive-5ea0.kxcdn.com/wp-content/uploads/2023/09/quest-explore.jpg" alt="Person wearing a VR headset looking at a futuristic interface.">
-    </body>
+  <script src="script.js"></script>
+</body>
 </html>
