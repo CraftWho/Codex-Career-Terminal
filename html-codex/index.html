@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>🧑🏾‍💼 Codex Career Terminal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />  <title>🧑🏾‍💼 Codex Career Terminal</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -20,6 +19,7 @@
   </header>
 
   <main class="container">
+    <!-- 🧑🏾‍💼 RPG Stats -->
     <h2>Welcome, Strategist</h2>
     <p>This is a modular interface built in VS Code. It serves as the visual gateway to my developer questline.</p>
 
@@ -33,6 +33,16 @@
       </ul>
     </section>
 
+     <!-- 🎯 DP Progress -->
+    <section class="progress">
+      <h3>🎯 DP Progress</h3>
+      <div class="progress-bar">
+        <div class="fill"></div>
+      </div>
+      <p id="progress-text"></p>
+    </section>
+
+    <!-- 🧠 Skills Unlocked -->
     <section id="skills-unlocked">
       <h3>🧠 Skills Unlocked</h3>
       <ul id="skills">
@@ -42,23 +52,15 @@
       </ul>
     </section>
 
-    <section class="progress">
-  <h3>📈 DP Progress</h3>
-  <div class="progress-bar">
-    <div class="fill" id="dp-fill"></div>
-  </div>
-
-  <p id="progress-text"></p>
-  <p><strong>Next Level:</strong> <span id="nextLevelDP"></span> DP</p>
-</section>
-
+    <!-- 🏅 Trophies Button -->
     <button onclick="window.location.href='../achievements/index.html'">Trophies</button>
   </main>
 
+    <!-- 🛠 Patch Info -->
   <footer>
     <p id="patch-info">🛠 v0.1 — Interface scaffolded and styled</p>
   </footer>
 
-  <script src="script.js" defer></script>
+  <script src="script.js"></script>
 </body>
 </html>
