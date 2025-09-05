@@ -125,12 +125,4 @@ ul {
 #skills li {
   margin-bottom: 0.5rem;
 }
-
-.fill {
-  height: 100%;
-  background-color: crimson;
-  width: 0%;
-  transition: width 1.5s ease-in-out;
-  border-radius: 10px;
-}
 /* === 🖤 End of Style === */
