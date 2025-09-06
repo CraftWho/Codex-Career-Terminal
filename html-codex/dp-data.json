@@ -1,8 +1,8 @@
 {
    "name": "Leo Antoine",
   "class": "Web Developer",
-  "dp": 100,
-  "level": 1,
+  "dp": 600,
+  "level": 3,
   "title": "📊 Codex Architect",
   "skills": [
     "💻 HTML Basics",
@@ -13,5 +13,5 @@
     "🎨 GUI Design Principles",
     "⚙️ Scripting Layer Awareness"
   ],
-  "nextlevelDP": 300
+  "nextlevelDP": 800
 }
