@@ -46,6 +46,25 @@
       { "date": "2025-09-06", "change": "MQ1 Activated", "notes": "HTML structure quest launched" },
       { "date": "2025-09-06", "change": "Video lessons logged", "notes": "DP maxed at 200" },
       { "date": "2025-09-06", "change": "Quiz deployed", "notes": "Awaiting results" }
+    ] 
+  },
+  "roadmap": [
+  {
+    "phase": "Core Foundations",
+    "goal": "Build semantic, responsive layouts with recruiter-grade polish",
+    "unlock": ["Markup Strategist", "Layout Sentinel"],
+    "skills": [
+      { "name": "HTML & CSS Basics", "platform": "Scrimba", "link": "https://scrimba.com/learn/frontend" },
+      { "name": "CSS Box Model", "platform": "W3Schools", "link": "https://www.w3schools.com/css/css_boxmodel.asp" }
+    ]
+  },
+  {
+    "phase": "JavaScript & DOM Mastery",
+    "goal": "Build interactive UIs and master DOM events",
+    "unlock": ["DOM Wrangler", "Logic Architect"],
+    "skills": [
+      { "name": "JS Fundamentals", "platform": "Scrimba", "link": "https://scrimba.com/learn/frontend" },
+      { "name": "DOM Manipulation", "platform": "Scrimba", "link": "https://scrimba.com/learn/frontend" }
     ]
   }
-}
+]}
