@@ -8,37 +8,39 @@
 
 ---
 
-### 🧠 Completed Modules
+### 🧠 Completed Chapters
 
-| Module                     | Video Watched | Repo Updated | DP Earned | Level Up |
-|---------------------------|----------------|--------------|-----------|----------|
-|  Markdown Modularization | ✅ | ✅ | +200 DP | ✅ Level 1 |
-|  Intro to HTML           | ✅ | ✅ | +200 DP | ✅ Level 2 |
-|  CSS Fundamentals        | ✅ | ✅ | +200 DP | ✅ Level 3 |
-|  [Next Module]           | ⬜ | ⬜ | —       | —           |
+| Chapter                  | DP from Lessons | Extra DP | Total DP | Level Up |
+|--------------------------|------------------|----------|-----------|----------|
+| Markdown Modularization  | +200 DP          | —        | +200 DP   | ✅ Level 1 |
+| Introduction to HTML     | +200 DP          | —        | +200 DP   | ✅ Level 2 |
+| CSS Fundamentals         | +200 DP          | —        | +200 DP   | ✅ Level 3 |
+| [Chapter 1] HTML Mid     | ⬜               | ⬜      | —         | —           |
 
 ---
 
 ### 🎯 Side Quests
 
-| Quest ID | Title                               | Source                              | DP Earned | Status     |
-|----------|-------------------------------------|-------------------------------------|-----------|------------|
+| SQ ID | Title                        | Source            | DP Earned | Status     |
+|-------|------------------------------|-------------------|-----------|------------|
+| SQ1   | Semantic Tag Hunt            | MQ1 Sub-Quest     | +50 DP    | ⬜ Pending  |
+| SQ2   | CSS Battle Screenshot        | CSSBattle.dev     | +50 DP    | ⬜ Pending  |
+| SQ3   | README Recruiter Polish      | Codex Contribution| +25 DP    | ⬜ Pending  |
 
 ---
 
-### 🎯 DP Breakdown
+### 🧠 DP Breakdown (Updated)
 
-- 📺 Video Lesson Completion: +100 DP  
-- 🛠️ Repo Update: +100 DP  
-- 🧪 Perfect Quiz Score: +100 DP  
-- 🧠 Partial Quiz Score: +50 DP  
-- 🧾 Codex Contribution: +25 DP (optional bonus)  
+- 📺 Video Lesson Completion: +25–50 DP (scaled by relevance)  
+- 🛠️ Repo Update: +50 DP  
+- ❓ Quiz Question: +10 DP per correct  
+- 🧾 Codex Contribution: +25 DP  
 - 🎯 Side Quest Completion: +50 DP (each)
 
 ---
 
 ### 🧾 Codex Links
 
-- [skill-tree.md](../Q003_CSS_Fundamentals/skill-tree.md)  
-- [quiz-log.md](../Q003_CSS_Fundamentals/quiz-log.md)  
-- [codex.md](../Q003_CSS_Fundamentals/codex.md)
+- [career-codex.md](../career-roadmap.md)  
+- [skill-tree.md](../skill-tree.md)  
+- [quiz-log.md](../quiz-log.md)

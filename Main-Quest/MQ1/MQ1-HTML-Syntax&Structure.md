@@ -1,62 +1,76 @@
-## 🧭 Main Quest MQ1 – HTML Syntax & Structure
+# 🧠 MQ1 – HTML Syntax & Structure
 
-🎯 Objective: Learn the foundational structure of HTML and semantic markup.
+📁 Chapter Folder: `/Chapter-1/`  
+🎯 Max DP from Lessons: 200  
+🎮 Current Status: ✅ Active | 🧱 Foundation Phase
 
-📺 Video Lesson:  
-[Scrimba – HTML Basics](https://scrimba.com/learn/html)  
-🧠 DP Earned: +50 (upon completion)
+---
 
-🛠️ Repo Task:  
-Create a file `mq1-html-basics.html` in your codex repo.  
-Include:
+## 🎯 Quest Objective
+
+Master the foundational structure of HTML using semantic tags, proper nesting, and document architecture. This quest sets the groundwork for all future UI development and aligns directly with GDIT’s expectations for clean, accessible markup.
+
+---
+
+## 📺 Video Lessons (Scrimba – Introduction to HTML)
+
+| Lesson Title                      | Relevance to Job | DP Earned | Status     |
+|----------------------------------|------------------|-----------|------------|
+| Creating an HTML Document        | 🟢 High          | +75 DP    | ✅ Complete |
+| Nesting HTML Elements            | 🟢 High          | +75 DP    | ✅ Complete |
+| Head Elements & Scripts in HTML  | 🟡 Medium        | +50 DP    | ✅ Complete |
+
+🧠 **Total DP from Lessons**: 200 (Maxed)  
+📦 Source: [Scrimba – Introduction to HTML](https://scrimba.com/introduction-to-html-cd2e)
+
+---
+
+## 🛠️ Repo Task
+
+📄 File: `mq1-html-basics.html`  
+✅ Must include:
 
 - `<!DOCTYPE html>` declaration
 - `<html>`, `<head>`, `<body>` structure  
 - At least 3 semantic tags: `<main>`, `<section>`, `<footer>`  
-🧠 DP Earned: +50 (upon commit)
+- A comment block with your name and codex version
 
-🧪 Quiz Challenge:  
-Complete the following quiz for +100 DP (perfect score) or +50 DP (partial):
-
----
-
-### 🧠 HTML Syntax Quiz
-
-1. **Which HTML tag is used to define the main content of a webpage?**  
-   - ☐ `<section>`  
-   - ☐ `<div>`  
-   - ☐ `<body>`  
-   - ✅ `<main>`
-
-2. **What does the `<head>` tag in HTML contain?**  
-   - ☐ Main navigation elements  
-   - ☐ Footer information  
-   - ☐ Visible content of the page  
-   - ✅ Metadata, links to stylesheets, and scripts
-
-3. **Which attribute is used to uniquely identify an HTML element?**  
-   - ☐ `style`  
-   - ☐ `name`  
-   - ✅ `id`  
-   - ☐ `class`
-
-4. **Which tag is used to create a hyperlink in HTML?**  
-   - ☐ `<nav>`  
-   - ☐ `<link>`  
-   - ☐ `<href>`  
-   - ✅ `<a>`
-
-5. **What is the correct HTML tag to insert a line break?**  
-   - ☐ `<lb>`  
-   - ✅ `<br>`  
-   - ☐ `<hr>`  
-   - ☐ `<break>`
+🎯 DP Earned: +50 (outside chapter cap)
 
 ---
 
-📦 Patch Note:  
-`2025-09-04` – Logged MQ1: HTML Syntax & Structure. Codex recalibrated. DP system reactivated.
+## ❓ Quiz Challenge
+
+📄 File: `mq1-quiz.md`  
+✅ 10 questions on HTML syntax, structure, and semantics  
+🎯 DP Earned: +100 (perfect score) or +50 (partial)
 
 ---
 
-Let me know when you’ve completed the video, committed the file, and taken the quiz. I’ll tally your DP and prep **MQ2 – CSS Selectors & Styling Basics**. Let’s earn that next level.
+## 🎯 Side Quests (Max 3)
+
+| SQ ID | Title                      | Source              | DP Earned | Status     |
+|-------|----------------------------|---------------------|-----------|------------|
+| SQ1   | Semantic Tag Hunt          | Custom              | +50 DP    | ✅ Complete |
+| SQ2   | CSS Battle Screenshot      | [CSSBattle.dev](https://cssbattle.dev/) | +50 DP    | ⬜ Pending  |
+| SQ3   | README Recruiter Polish    | Codex Contribution  | +25 DP    | ⬜ Pending  |
+
+---
+
+## 🧾 Patch Notes
+
+| Date       | Change                                | Notes                                  |
+|------------|----------------------------------------|----------------------------------------|
+| 2025-09-06 | MQ1 Activated                          | HTML structure quest launched          |
+| 2025-09-06 | Video lessons logged                   | DP maxed at 200                        |
+| 2025-09-06 | Quiz deployed                          | Awaiting results                       |
+| 2025-09-06 | Side quest SQ1 completed               | Semantic tags documented               |
+
+---
+
+## 🧠 Codex Unlocks
+
+| Title Unlocked         | Ability Gained              |
+|------------------------|-----------------------------|
+| 🧙 Apprentice of HTML   | Semantic Markup Mastery     |
+| 🛡️ Adept of the DOM     | Structural Nesting Discipline|
