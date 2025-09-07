@@ -1,9 +1,11 @@
 {
-   "name": "Leo Antoine",
+  "name": "Leo Antoine",
   "class": "Web Developer",
-  "dp": 600,
-  "level": 3,
   "title": "📊 Codex Architect",
+  "level": 3,
+  "dp": 600,
+  "nextlevelDP": 800,
+
   "skills": [
     "💻 HTML Basics",
     "🎨 CSS Fundamentals",
@@ -13,5 +15,37 @@
     "🎨 GUI Design Principles",
     "⚙️ Scripting Layer Awareness"
   ],
-  "nextlevelDP": 800
+
+  "currentChapter": "MQ1 – HTML Syntax & Structure",
+
+  "chapterProgress": {
+    "dpFromLessons": 200,
+    "repoUpdate": 50,
+    "quizScore": 100,
+    "sideQuests": [
+      { "title": "Semantic Tag Hunt", "dp": 50, "status": "complete" },
+      { "title": "README Recruiter Polish", "dp": 25, "status": "pending" }
+    ],
+    "repo": {
+      "file": "mq1-html-basics.html",
+      "status": "complete",
+      "commitHash": "abc1234",
+      "lastUpdated": "2025-09-06"
+    },
+    "quiz": {
+      "questions": 10,
+      "correct": 10,
+      "score": 100,
+      "status": "complete"
+    },
+    "codexUnlocks": [
+      { "title": "🧙 Apprentice of HTML", "ability": "Semantic Markup Mastery" },
+      { "title": "🛡️ Adept of the DOM", "ability": "Structural Nesting Discipline" }
+    ],
+    "patchNotes": [
+      { "date": "2025-09-06", "change": "MQ1 Activated", "notes": "HTML structure quest launched" },
+      { "date": "2025-09-06", "change": "Video lessons logged", "notes": "DP maxed at 200" },
+      { "date": "2025-09-06", "change": "Quiz deployed", "notes": "Awaiting results" }
+    ]
+  }
 }
