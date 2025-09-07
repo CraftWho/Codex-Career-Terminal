@@ -9,6 +9,9 @@ fetch('./dp-data.json')
     document.getElementById('next-dp').textContent = data.nextlevelDP;
     document.getElementById('title').textContent = data.title;
 
+     const now = new Date().toLocaleString();
+  document.getElementById('last-sync').textContent = now;
+})
     // 🧠 Skills
     const skillsList = document.getElementById('skills');
     skillsList.innerHTML = '';
@@ -55,4 +58,3 @@ fetch('./dp-data.json')
       li.textContent = `${u.title}: ${u.ability}`;
       unlockList.appendChild(li);
     });
-  });

@@ -1,31 +1,20 @@
 # 🧠 Leo's Mastery Progress Tracker (DP Log)
 
-## 🎮 Current Level: 3
+## 🎮 Current Level: {{ dp.level }}
 
-**Total DP:** 600  
-**Next Level at:** 800 DP  
+**Total DP:** {{ dp.dp }}
+**Next Level at:** {{ dp.nextlevelDP }}  
 🔗 [View Skill Tree](skill-tree.md) | [View Quiz Log](quiz-log.md)
 
 ---
 
 ### 🧠 Completed Chapters
 
-| Chapter                  | DP from Lessons | Extra DP | Total DP | Level Up |
-|--------------------------|------------------|----------|-----------|----------|
-| Markdown Modularization  | +200 DP          | —        | +200 DP   | ✅ Level 1 |
-| Introduction to HTML     | +200 DP          | —        | +200 DP   | ✅ Level 2 |
-| CSS Fundamentals         | +200 DP          | —        | +200 DP   | ✅ Level 3 |
-| [Chapter 1] HTML Mid     | ⬜               | ⬜      | —         | —           |
-
----
-
-### 🎯 Side Quests
-
-| SQ ID | Title                        | Source            | DP Earned | Status     |
-|-------|------------------------------|-------------------|-----------|------------|
-| SQ1   | Semantic Tag Hunt            | MQ1 Sub-Quest     | +50 DP    | ⬜ Pending  |
-| SQ2   | CSS Battle Screenshot        | CSSBattle.dev     | +50 DP    | ⬜ Pending  |
-| SQ3   | README Recruiter Polish      | Codex Contribution| +25 DP    | ⬜ Pending  |
+- {{dp.currentChapter }}
+- Lessons: {{ dp.chapterProgress.dpFromLessons }} DP
+- Repo: {{ dp.chapterProgress.repoUpdate }} DP
+- Quiz: {{ dp.chapterProgress.quizScore }} DP
+- Side Quests: {{ dp.charperProgress.sideQuests.length }} logged
 
 ---
 

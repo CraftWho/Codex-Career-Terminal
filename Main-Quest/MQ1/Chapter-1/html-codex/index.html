@@ -1,67 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+,html lang="en">
 <head>
-  <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />  <title>🧑🏾‍💼 Codex Career Terminal</title>  <link rel="stylesheet" href="style.css" />
-<title>🧑🏾‍💼 Codex Career Terminal</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />  <title>🧑🏾‍💼 Codex Career Terminal</title>  <link rel="stylesheet" href="style.css" />
+    <title>🧑🏾‍💼 Codex Career Terminal</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-  <header>
-    <h1>🧑🏾‍💼 Codex Career Terminal</h1>
-    <nav>
-      <ul>
-        <li><a href="../quest-log.md">📜 Quest Log</a></li>
-        <li><a href="../skill-tree.md">🌿 Skill Tree</a></li>
-        <li><a href="../codex.md">📚 Codex</a></li>
-      </ul>
-    </nav>
-  </header>
+<body data-page="start">
+    <header>
+        <h1>🧑🏾‍💼 Codex Career Terminal</h1>
+        <p> Welcome back, <strong id="name"></strong> (<span id="class"></span>)</p>
+        <p>🎮 DP <span id="dp"></span> / <span id="next-dp"></span> </p>
+        <p>🏆 Title: <span id="title"></span></p>
+        <P>🎚️ Level: <span id="level"></span></P>
+    </header>
 
-  <main class="container">
-    <!-- 🧑🏾‍💼 RPG Stats -->
-    <h2>Current Status</h2>
+    <main>
+        <h2>📁 Modules</h2>
+        <ul>
+            <li><a href="dashboard.html">📊 Dashboard</a></li>
+            <li><a href="skill-tree.html">🌳 Skill Tree</a> </li>
+            <li><a href="career-roadmap.html">🗺️ Career Roadmap</a></li>
+            <li><a href="quest-log.html"></a>📜 Quest Log</li>
+            <li><a href="codex.html">📘 Codex Titles</a></li>
+            <li><a href="patch-notes.html">🧾 Patch Notes</a></li>
+        </ul>
+        </main>
 
-    <section id="rpg-stats">
-      <h3>🧑🏾‍💼 Current Status</h3>
-      <ul>
-        <li><strong>📛 Name:</strong> <span id="name"></span></li>
-        <li><strong>🗃️ Class</strong> <span id="class"><</span></li>
-        <li><strong>🎚️ Level:</strong> <span id="level"></span></li>
-        <li><strong>🛂 Title:</strong> <span id="title"></span></li>
-        <li><strong>🥼 DP:</strong> <span id="dp"></span></li>
-        <li><strong>✨ Next Level:</strong> <span id="nextlevelDP"></span>DP</li>
-      </ul>
-    </section>
-
-     <!-- 🎯 DP Progress -->
-    <section class="progress">
-      <h3>🎯 DP Progress</h3>
-      <div class="progress-bar">
-        <div class="fill"></div>
-      </div>
-      <p id="progress-text"></p>
-    </section>
-
-    <!-- 🧠 Skills Unlocked -->
-    <section id="skills-unlocked">
-      <h3>🧠 Skills Unlocked</h3>
-      <ul id="skills">
-        <li>🧱 HTML Structure</li>
-        <li>🎨 CSS Styling</li>
-        <li>🛠️ Git Workflow</li>
-      </ul>
-    </section>
-
-   <!-- 🧭 Current Quest Button -->
-<button onclick="window.location.href='../quests/current-quest.html'">Current Quest</button>
-
-    <!-- 🛠 Patch Info -->
-  <footer>
-        <p>This is a modular interface built in VS Code. It serves as the visual gateway to my developer questline.</p>
-    <p id="patch-info">🛠 v0.1 — Interface scaffolded and styled</p>
-  </footer>
-
-  <script src="script.js"></script>
+    <footer>
+        <p>📅Last synced: <span id="last-sync">-</span></p>
 </body>
 </html>
