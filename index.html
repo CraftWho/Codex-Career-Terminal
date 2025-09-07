@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>📊 Codex Career Tracker</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>📊 Codex Career Tracker</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="#dashboard">Dashboard</a></li>
+                    <li><a href="#analytics">Analytics</a></li>
+                    <li><a href="#settings">Settings</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="container">
+    <!--  🧙🏾 RPG Stats -->
+    <section id="rpg-stats">
+        <h2>🧙🏾 Current Status</h2>
+        <ul>
+            <li><strong>Name:</strong> <span id="name"></span></li>
+        <li><strong>Level:</strong> <span id="level"></span></li>
+        <li><strong>Title:</strong> <span id="title"></span></li>
+        <li><strong>DP:</strong> <span id="dp"></span></li>
+        <li><strong>Next Level:</strong> <span id="nextlevelDP"></span> DP</li>
+        </ul>
+    </section>
+
+    <!-- 📈 DP Progress -->
+     <section class="DP-progress">
+        <h2>📈 DP Progress</h2>
+        <div class="progress-bar">
+            <div class="fill"></div>
+        </div>
+        <p id="progress-text"></p>
+    </section>
+
+    <!-- 🧠 Skills Unlocked -->
+     <section id="skills-unlocked">
+        <h2>🧠 Skills Unlocked</h2>
+        <ul id="skills"></ul>
+    </section>
+
+    <!-- 🚀 Full Send Button -->
+    <section id="full-send">
+        <button id="full-send-button">🚀 Full Send!</button>
+    </section>
+
+    <img src="https://roadtovrlive-5ea0.kxcdn.com/wp-content/uploads/2023/09/quest-explore.jpg" alt="Person wearing a VR headset looking at a futuristic interface.">
+    </main>
+
+    <script src="script.js"></script>
+    <!-- 🛠 Patch Notes -->
+    <footer>
+        <p id="patch-info">🛠 Patch loading...</p>
+    </footer>
+    </body>
+</html>
