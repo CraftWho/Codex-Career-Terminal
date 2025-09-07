@@ -1,6 +1,6 @@
-## 🧠 Leo's Mastery Progress Tracker (DP Log)
+# 🧠 Leo's Mastery Progress Tracker (DP Log)
 
-### 🎮 Current Level: 3
+## 🎮 Current Level: 3
 
 **Total DP:** 600  
 **Next Level at:** 800 DP  
@@ -23,9 +23,6 @@
 
 | Quest ID | Title                               | Source                              | DP Earned | Status     |
 |----------|-------------------------------------|-------------------------------------|-----------|------------|
-| SQ001     | Codex Terminal Screenshot Challenge | Custom (Leo's Questline)            | +50 DP    | ✅ Complete |
-| SQ002     | Learn CSS Box Model                | [W3Schools – Box Model](https://www.w3schools.com/css/css_boxmodel.asp) | +50 DP    | ✅ Complete |
-| SQ003     | Flexbox Froggy Challenge           | [Flexbox Froggy Game](https://flexboxfroggy.com/) | +50 DP    | ✅ Complete |
 
 ---
 
