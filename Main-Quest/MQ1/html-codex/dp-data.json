@@ -1,11 +1,9 @@
 {
-  "name:": "Leo Antoine",
-  "📛 Name:": "Leo Antoine",
-  "class:": "Web Developer",
-  "title:": "📊 Codex Architect",
-  "level:": 3,
-  "DP:": 600,
-  "🥼 DP:": 600,
+  "name": "Leo Antoine",
+  "class": "Web Developer",
+  "title": "📊 Codex Architect",
+  "level": 3,
+  "dp": 600,
   "nextlevelDP": 800,
 
   "skills": [
