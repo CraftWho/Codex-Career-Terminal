@@ -1,4 +1,4 @@
-fetch('../dp-data.json')
+fetch('./dp-data.json') // ✅ works from any HTML file in html-codex/
   .then(res => res.json())
   .then(data => {
     // 🧑 Profile Info
@@ -71,3 +71,44 @@ fetch('../dp-data.json')
     }
   })
   .catch(error => console.error('Error fetching data:', error));
+
+  document.addEventListener('DOMContentLoaded', () => {
+  fetch('./dp-data.json')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then(data => {
+      renderDashboard(data);
+    })
+    .catch(error => {
+      console.error('Fetch failed:', error);
+    });
+});
+
+function renderDashboard(data) {
+  // Example: Update DP progress
+  const dpElement = document.getElementById('dp-progress');
+  if (dpElement) {
+    dpElement.textContent = `DP: ${data.dp} / ${data.nextLevelDP}`;
+  }
+
+  // Example: Update current level
+  const levelElement = document.getElementById('current-level');
+  if (levelElement) {
+    levelElement.textContent = `Level ${data.level}`;
+  }
+
+  // Example: Render unlocked skills
+  const skillsContainer = document.getElementById('skills-unlocked');
+  if (skillsContainer && Array.isArray(data.skills)) {
+    skillsContainer.innerHTML = '';
+    data.skills.forEach(skill => {
+      const skillItem = document.createElement('li');
+      skillItem.textContent = skill;
+      skillsContainer.appendChild(skillItem);
+    });
+  }
+}

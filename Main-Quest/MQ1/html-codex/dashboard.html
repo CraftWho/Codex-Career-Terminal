@@ -2,18 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />  <title>🧑🏾‍💼 Codex Career Terminal</title>  <link rel="stylesheet" href="style.css" />
-<title>🧑🏾‍💼 Codex Career Terminal</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>🧑🏾‍💼 Codex Career Terminal</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src=".script.js"></script>
+  
 </head>
 <body>
   <header>
     <h1>🧑🏾‍💼 Codex Career Terminal</h1>
     <nav>
       <ul>
-        <li><a href="../quest-log.md">📜 Quest Log</a></li>
-        <li><a href="../skill-tree.md">🌿 Skill Tree</a></li>
-        <li><a href="../codex.md">📚 Codex</a></li>
+        <li><a href="./quest-log.html">📜 Quest Log</a></li>
+        <li><a href="./skill-tree.html">🌿 Skill Tree</a></li>
+        <li><a href="./codex.html">📚 Codex</a></li>
       </ul>
     </nav>
   </header>
@@ -25,7 +27,7 @@
     <section id="rpg-stats">
       <h3>🧑🏾‍💼 Current Status</h3>
       <ul>
-        <li><strong>Name:</strong> <span id="name"></span></li>
+        <li><strong>📛 Name:</strong> <span id="name"></span></li>
         <li><strong>🗃️ Class:</strong> <span id="class"></span></li>
         <li><strong>🎚️ Level:</strong> <span id="level"></span></li>
         <li><strong>🛂 Title:</strong> <span id="title"></span></li>
@@ -54,7 +56,8 @@
     </section>
 
    <!-- 🧭 Current Quest Button -->
-<button onclick="window.location.href='../quests/current-quest.html'">Current Quest</button>
+<button onclick="window.location.href='./quest-log.html'" id="current-quest-button"
+>Current Quest</button>
 
     <!-- 🛠 Patch Info -->
   <footer>
@@ -62,6 +65,6 @@
     <p id="patch-info">🛠 v0.1 — Interface scaffolded and styled</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
