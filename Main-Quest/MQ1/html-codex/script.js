@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(renderDashboard)
     .catch(error => {
       console.error('Fetch failed:', error);
-    });
+    })
+    .then(data => renderSkillTree(data.skills))
+    .catch(error => console.error('Error rendering skill tree:', error));
 });
 
 function renderDashboard(data) {
@@ -40,4 +42,15 @@ function renderDashboard(data) {
       skillsList.appendChild(skillItem);
     });
   }
+}
+function renderSkillTree(skills) {
+  const container = document.getElementById('skill-tree-container');
+  if (!container || !Array.isArray(skills)) return;
+
+  container.innerHTML = '<h2>Unlocked Skills</h2><ul class="skill-tree">';
+  skills.forEach(skill => {
+    const li = document.createElement('li');
+    li.textContent = `✅ ${skill}`;
+    container.querySelector('ul').appendChild(li);
+  });
 }
