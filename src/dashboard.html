@@ -4,7 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>🧑🏾‍💼 Codex Career Terminal</title>
-  <link rel="stylesheet" href="style.css" />
+  
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
   <header>
@@ -19,7 +20,6 @@
   </header>
 
   <main class="container">
-    <!-- 🧑🏾‍💼 RPG Stats -->
     <h2>Current Status</h2>
 
     <section id="rpg-stats">
@@ -34,7 +34,6 @@
       </ul>
     </section>
 
-     <!-- 🎯 DP Progress -->
     <section class="progress">
       <h3>🎯 DP Progress</h3>
       <div class="progress-bar">
@@ -43,23 +42,19 @@
       <p id="progress-text"></p>
     </section>
 
-    <!-- 🧠 Skills Unlocked -->
     <section id="skills-unlocked">
       <h3>🧠 Skills Unlocked</h3>
       <ul id="skills">
       </ul>
     </section>
 
-   <!-- 🧭 Current Quest Button -->
-<button onclick="window.location.href='./quest-log.html'" id="current-quest-button"
->Current Quest</button>
+    <a href="#" id="current-quest-button">Current Quest</a>
 
-    <!-- 🛠 Patch Info -->
-  <footer>
-        <p>This is a modular interface built in VS Code. It serves as the visual gateway to my developer questline.</p>
-    <p id="patch-info">🛠 v0.1 — Interface scaffolded and styled</p>
-  </footer>
+    <footer>
+      <p>This is a modular interface built in VS Code. It serves as the visual gateway to my developer questline.</p>
+      <p id="patch-info">🛠 v0.1 — Interface scaffolded and styled</p>
+    </footer>
 
-  <script src="script.js"></script>
+    <script src="./js/script.js" defer></script>
 </body>
 </html>

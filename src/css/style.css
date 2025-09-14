@@ -20,29 +20,32 @@ header {
 /* === 🧭 Navigation === */
 nav {
   margin-top: 10px;
+}
+
+nav ul {
   display: flex;
-  justify-content: center;
-  gap: 30px;
-  list-style: none; /* Removes default list dots */
-  padding-left: 0;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav li {
+  padding: 10px;
 }
 
 nav a {
   color: #ffd700;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1.1rem;
   transition: color 0.3s ease;
-  text-shadow:
-    -1px -1px 0 #000,
-     1px -1px 0 #000,
-    -1px  1px 0 #000,
-     1px  1px 0 #000; /* Black outline */
 }
 
 nav a:hover {
-  color: #fff;
   text-shadow: 0 0 5px #ffd700;
+  color: #fff; /* Brighter color on hover */
+  text-decoration: underline;
 }
 
 /* === 📦 Container === */
@@ -73,7 +76,7 @@ p {
 }
 
 /* === 🕹️ Button === */
-button {
+button, a {
   background-color: #8b0000;
   color: #fff;
   border: 2px solid #ffd700;
@@ -92,6 +95,12 @@ button:hover {
   box-shadow: 0 0 10px #ffd700;
 }
 
+/* Specific style for the Current Quest button to make it smaller */
+#current-quest-button {
+  display: inline-block;
+  width: auto; /* Allow the button to size to its content */
+}
+
 /* === 🧑🏾‍💼 Footer === */
 footer {
   text-align: center;
@@ -99,6 +108,7 @@ footer {
   color: #999;
   margin-top: 40px;
 }
+
 /* === 🧮 DP Progress Bar === */
 .progress-bar {
   width: 100%;
@@ -137,4 +147,88 @@ ul {
   font-weight: bold;
   color: #ffd700;
 }
+
+/* === 🌳 Top-Down Skill Tree === */
+.tree {
+  text-align: center;
+  padding: 0;
+  margin: 50px auto;
+  list-style: none;
+}
+
+.tree ul {
+  padding-top: 20px;
+  position: relative;
+  transition: all 0.5s;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.tree ul::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 2px solid gold;
+  width: 0;
+  height: 20px;
+}
+
+.tree li {
+  text-align: center;
+  position: relative;
+  padding: 20px 5px 0 5px;
+}
+
+.tree li::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 2px solid gold;
+  width: 0;
+  height: 20px;
+}
+
+.tree li::after {
+  content: '';
+  position: absolute;
+  top: 19px;
+  left: 0;
+  border-top: 2px solid gold;
+  width: 50%;
+  height: 0;
+}
+
+.tree li:first-child::after {
+  border-top: none;
+}
+
+.tree li:last-child::after {
+  content: '';
+  position: absolute;
+  top: 19px;
+  right: 0;
+  border-top: 2px solid gold;
+  width: 50%;
+  height: 0;
+}
+
+.tree li:only-child::after {
+  border: none;
+}
+
+.tree li:first-child::after,
+.tree li:last-child::after {
+  width: 50%;
+}
+
+.tree li:first-child::before,
+.tree li:last-child::before {
+  left: 50%;
+  border-left: 2px solid gold;
+  height: 20px;
+}
+
 /* === 🖤 End of Style === */

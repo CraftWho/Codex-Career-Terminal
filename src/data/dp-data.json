@@ -1,11 +1,10 @@
 {
-  "name": "Leo Antoine",
+  "name": "Leopollo Antoine",
   "class": "Web Developer",
   "title": "📊 Codex Architect",
   "level": 3,
   "dp": 600,
   "nextlevelDP": 800,
-
   "skills": [
     "💻 HTML Basics",
     "🎨 CSS Fundamentals",
@@ -15,9 +14,31 @@
     "🎨 GUI Design Principles",
     "⚙️ Scripting Layer Awareness"
   ],
-
   "currentChapter": "MQ1 – HTML Syntax & Structure",
-
+  "currentQuestLink": "./Main-Quest/MQ1/mq1-html-basics.html",
+  "quests": [
+    {
+      "id": "MQ1",
+      "title": "HTML Syntax & Structure",
+      "status": "✅ Completed",
+      "dpEarned": 200,
+      "path": "./MQ1/mq1.md"
+    },
+    {
+      "id": "MQ2",
+      "title": "JavaScript & Data Binding",
+      "status": "🔄 In Progress",
+      "dpEarned": 0,
+      "path": "./MQ2/mq2.md"
+    },
+    {
+      "id": "MQ3",
+      "title": "React Awakening",
+      "status": "⚪ Pending",
+      "dpEarned": 0,
+      "path": "./MQ3/mq3.md"
+    }
+  ],
   "chapterProgress": {
     "dpFromLessons": 200,
     "repoUpdate": 50,
@@ -46,7 +67,7 @@
       { "date": "2025-09-06", "change": "MQ1 Activated", "notes": "HTML structure quest launched" },
       { "date": "2025-09-06", "change": "Video lessons logged", "notes": "DP maxed at 200" },
       { "date": "2025-09-06", "change": "Quiz deployed", "notes": "Awaiting results" }
-    ] 
+    ]
   },
   "roadmap": [
   {
@@ -67,4 +88,5 @@
       { "name": "DOM Manipulation", "platform": "Scrimba", "link": "https://scrimba.com/learn/frontend" }
     ]
   }
+]
 }
