@@ -46,7 +46,7 @@
     "quizScore": 100,
     "sideQuests": [
       { "title": "Semantic Tag Hunt", "dp": 50, "status": "complete" },
-      { "title": "README Recruiter Polish", "dp": 25, "status": "pending" }
+      { "title": "README Recruiter Polish", "dp": 25, "status": "pending" },
       { "title": "The Architect's Gauntlet", "dp": 75, "status": "complete" }
     ],
     "repo": {
