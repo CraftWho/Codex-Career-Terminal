@@ -1,6 +1,6 @@
 # 🧠 MQ1 – HTML Syntax & Structure
 
-📁 Location: `/Main-Quest/MQ1/Chapter-1/`  
+📁 Location: `/Main-Quest/MQ1/`  
 🎮 Max DP from Lessons: 200  
 🔓 Codex Unlocks: 🧙 Apprentice of HTML, 🛡️ Adept of the DOM  
 📅 Date Started: 09/06/2025  
@@ -56,7 +56,7 @@ Master the foundational structure of HTML using semantic tags, proper nesting, a
 
 | SQ ID | Title                      | DP Earned | Status     | Date Completed |
 |-------|----------------------------|-----------|------------|----------------|
-| SQ1   | Semantic Tag Hunt          | +50 DP    | ✅ Complete | 09/06/2025     |
+| SQ1   | Semantic Tag Hunt          | +50 DP    | ✅ Complete | 09/19/2025     |
 | SQ2   | README Recruiter Polish    | +25 DP    | ⬜ Pending  | —              |
 | SQ3   | CSS Battle Screenshot      | +50 DP    | ⬜ Pending  | —              |
 

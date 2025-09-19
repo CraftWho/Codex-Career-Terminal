@@ -3,7 +3,7 @@
   "class": "Web Developer",
   "title": "📊 Codex Architect",
   "level": 3,
-  "dp": 600,
+  "dp": 675,
   "nextlevelDP": 800,
   "skills": [
     "💻 HTML Basics",
@@ -12,7 +12,8 @@
     "🍃 Git workflow",
     "🧱 DOM Manipulation",
     "🎨 GUI Design Principles",
-    "⚙️ Scripting Layer Awareness"
+    "⚙️ Scripting Layer Awareness",
+    "💡 Advanced HTML Semantics"
   ],
   "currentChapter": "MQ1 – HTML Syntax & Structure",
   "currentQuestLink": "./Main-Quest/MQ1/mq1-html-basics.html",
@@ -46,6 +47,7 @@
     "sideQuests": [
       { "title": "Semantic Tag Hunt", "dp": 50, "status": "complete" },
       { "title": "README Recruiter Polish", "dp": 25, "status": "pending" }
+      { "title": "The Architect's Gauntlet", "dp": 75, "status": "complete" }
     ],
     "repo": {
       "file": "mq1-html-basics.html",
@@ -66,7 +68,8 @@
     "patchNotes": [
       { "date": "2025-09-06", "change": "MQ1 Activated", "notes": "HTML structure quest launched" },
       { "date": "2025-09-06", "change": "Video lessons logged", "notes": "DP maxed at 200" },
-      { "date": "2025-09-06", "change": "Quiz deployed", "notes": "Awaiting results" }
+      { "date": "2025-09-06", "change": "Quiz deployed", "notes": "Awaiting results" },
+      { "date": "09-19-2025", "change": "Side Quest: Architect's Gauntlet completed", "notes": "Reinforced HTML fundamentals via targeted practice" }
     ]
   },
   "roadmap": [
