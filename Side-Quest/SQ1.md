@@ -3,7 +3,7 @@
 **Quest ID**: SQ1
 **Status**: ✅ Completed
 **DP Earned**: +75 DP
-**Associated Quest**: [MQ1 – HTML Syntax & Structure](https://www.google.com/search?q=MQ1.md)
+**Associated Quest**: [MQ1 – HTML Syntax & Structure]
 **Date Completed**: 09/19/2025
 
 ## 🎯 Objective

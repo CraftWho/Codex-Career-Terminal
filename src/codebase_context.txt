@@ -1,0 +1,1622 @@
+--- START OF FILE: career-roadmap.html ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>🧑🏾‍💼 Codex Career Terminal</title>
+  
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <script src="./js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Career Roadmap</h1>
+    <nav>
+      <ul>
+        <li><a href="./dashboard.html">🧑‍💻 Dashboard</a></li>
+        <li><a href="./quest-log.html">🧭 Quest Log</a></li>
+        <li><a href="./skill-tree.html">🌳 Skill Tree</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <a href="../Main-Quest/MQ1/MQ1.md">📜 MQ1 Narrative</a>
+  </main>
+</body>
+</html>
+--- END OF FILE: career-roadmap.html ---
+
+--- START OF FILE: codex.html ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>🧑🏾‍💼 Codex Career Terminal</title>
+  
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <script src="./js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>📚 Codex</h1>
+    <nav>
+      <ul>
+        <li><a href="./dashboard.html">🧑‍💻 Dashboard</a></li>
+        <li><a href="./quest-log.html">🧭 Quest Log</a></li>
+        <li><a href="./skill-tree.html">🌳 Skill Tree</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <a href="../Main-Quest/MQ1/MQ1.md">📜 MQ1 Narrative</a>
+  </main>
+</body>
+</html>
+--- END OF FILE: codex.html ---
+
+--- START OF FILE: dashboard.html ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>🧑🏾‍💼 Codex Career Terminal</title>
+  
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🧑🏾‍💼 Codex Career Terminal</h1>
+    <nav>
+      <ul>
+        <li><a href="./quest-log.html">📜 Quest Log</a></li>
+        <li><a href="./skill-tree.html">🌿 Skill Tree</a></li>
+        <li><a href="./codex.html">📚 Codex</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Current Status</h2>
+
+    <section id="rpg-stats">
+      <h3>🧑🏾‍💼 Current Status</h3>
+      <ul>
+        <li><strong>📛 Name:</strong> <span id="name"></span></li>
+        <li><strong>🗃️ Class:</strong> <span id="class"></span></li>
+        <li><strong>🎚️ Level:</strong> <span id="level"></span></li>
+        <li><strong>🛂 Title:</strong> <span id="title"></span></li>
+        <li><strong>🥼 DP:</strong> <span id="dp"></span></li>
+        <li><strong>✨ Next Level:</strong> <span id="nextlevelDP"></span>DP</li>
+      </ul>
+    </section>
+
+    <section class="progress">
+      <h3>🎯 DP Progress</h3>
+      <div class="progress-bar">
+        <div class="fill"></div>
+      </div>
+      <p id="progress-text"></p>
+    </section>
+
+    <section id="skills-unlocked">
+      <h3>🧠 Skills Unlocked</h3>
+      <ul id="skills">
+      </ul>
+    </section>
+
+    <a href="#" id="current-quest-button">Current Quest</a>
+
+    <footer>
+      <p>This is a modular interface built in VS Code. It serves as the visual gateway to my developer questline.</p>
+      <p id="patch-info">🛠 v0.1 — Interface scaffolded and styled</p>
+    </footer>
+
+    <script src="./js/script.js" defer></script>
+</body>
+</html>
+--- END OF FILE: dashboard.html ---
+
+--- START OF FILE: index.html ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>🧑🏾‍💼 Codex Career Terminal</title>
+  
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <script src="./js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>🧑🏾‍💼 Codex Career Terminal</h1>
+    <nav>
+      <ul>
+        <li><a href="./dashboard.html">🧑‍💻 Dashboard</a></li>
+        <li><a href="./quest-log.html">🧭 Quest Log</a></li>
+        <li><a href="./skill-tree.html">🌳 Skill Tree</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <a href="./dashboard.html">Go to Dashboard</a>
+  </main>
+</body>
+</html>
+--- END OF FILE: index.html ---
+
+--- START OF FILE: MQ1.html ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex: MQ1 – HTML Syntax & Structure</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>🧠 MQ1 – HTML Syntax & Structure</h1>
+            <div class="quest-header">
+                <p>📁 Location: <code>/Main-Quest/MQ1/</code></p>
+                <p>🎮 Max DP from Lessons: 200</p>
+                <p>🔓 Codex Unlocks: 🧙 Apprentice of HTML, 🛡️ Adept of the DOM</p>
+                <p>📅 Date Started: 09/06/2025</p>
+                <p>📅 Date Completed: — (In Progress)</p>
+            </div>
+        </header>
+
+        <hr>
+
+        <section>
+            <h2>🎯 Objective</h2>
+            <p>Master the foundational structure of HTML using semantic tags, proper nesting, and document architecture. This quest sets the groundwork for all future UI development and aligns directly with recruiter expectations for clean, accessible markup.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>📺 Scrimba Lesson Breakdown</h2>
+            <p>📦 Source: <a href="https://scrimba.com/introduction-to-html-c02e" target="_blank">Scrimba – Introduction to HTML</a></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Lesson Title</th>
+                        <th>Relevance</th>
+                        <th>DP Earned</th>
+                        <th>Date Completed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Creating an HTML Document</td>
+                        <td>🟢 High</td>
+                        <td>+75 DP</td>
+                        <td>09/06/2025</td>
+                    </tr>
+                    <tr>
+                        <td>Nesting HTML Elements</td>
+                        <td>🟢 High</td>
+                        <td>+75 DP</td>
+                        <td>09/06/2025</td>
+                    </tr>
+                    <tr>
+                        <td>Head Elements & Scripts in HTML</td>
+                        <td>🟡 Medium</td>
+                        <td>+50 DP</td>
+                        <td>09/06/2025</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="total-dp">🧱 Total DP from Lessons: 200 (Maxed)</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>🛠️ Repo Task</h2>
+            <p>📄 File: <code>mq1-html-basics.html</code></p>
+            <p>✅ Must include:</p>
+            <ul class="task-list">
+                <li>- Full semantic structure</li>
+                <li>- Comment block with codex version</li>
+                <li>- At least 3 semantic tags</li>
+                <li>- Proper indentation and nesting</li>
+            </ul>
+            <p>🎯 DP Earned: +50 (outside chapter cap)</p>
+            <p>📅 Date Completed: 09/06/2025</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>❓ Quiz Challenge</h2>
+            <p>📄 File: <code>mq1-quiz.md</code></p>
+            <p>✅ 10 questions on HTML syntax and semantics</p>
+            <p>🎯 DP Earned: +100 (perfect score) or +50 (partial)</p>
+            <p>📅 Date Completed: — (Pending)</p>
+        </section>
+
+        <hr>
+        
+        <section>
+            <h2>🧩 Side Quests</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>SQ ID</th>
+                        <th>Title</th>
+                        <th>DP Earned</th>
+                        <th>Status</th>
+                        <th>Date Completed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SQ1</td>
+                        <td>Semantic Tag Hunt</td>
+                        <td>+50 DP</td>
+                        <td>✅ Complete</td>
+                        <td>09/19/2025</td>
+                    </tr>
+                    <tr>
+                        <td>SQ2</td>
+                        <td>README Recruiter Polish</td>
+                        <td>+25 DP</td>
+                        <td>⬜ Pending</td>
+                        <td>—</td>
+                    </tr>
+                    <tr>
+                        <td>SQ3</td>
+                        <td>CSS Battle Screenshot</td>
+                        <td>+50 DP</td>
+                        <td>⬜ Pending</td>
+                        <td>—</td>
+                    </tr>
+                    <tr>
+                        <td>SQ4</td>
+                        <td>The Architect's Gauntlet</td>
+                        <td>+75 DP</td>
+                        <td>✅ Complete</td>
+                        <td>09/19/2025</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <hr>
+
+        <section>
+            <h2>🧾 Patch Notes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Change</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09/06/2025</td>
+                        <td>MQ1 Activated</td>
+                        <td>HTML structure quest launched</td>
+                    </tr>
+                    <tr>
+                        <td>09/06/2025</td>
+                        <td>Scrimba lessons completed</td>
+                        <td>DP maxed at 200</td>
+                    </tr>
+                    <tr>
+                        <td>09/06/2025</td>
+                        <td>Repo task completed</td>
+                        <td>Semantic layout scaffolded</td>
+                    </tr>
+                    <tr>
+                        <td>09/06/2025</td>
+                        <td>Side quest SQ1 completed</td>
+                        <td>Semantic tags documented</td>
+                    </tr>
+                    <tr>
+                        <td>09/19/2025</td>
+                        <td>Side quest SQ4 completed</td>
+                        <td>Reinforced HTML fundamentals</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <hr>
+
+        <section>
+            <h2>🔓 Codex Unlocks</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Ability Unlocked</th>
+                        <th>Date Earned</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>🧙 Apprentice of HTML</td>
+                        <td>Semantic Markup Mastery</td>
+                        <td>09/06/2025</td>
+                    </tr>
+                    <tr>
+                        <td>🛡️ Adept of the DOM</td>
+                        <td>Structural Nesting Discipline</td>
+                        <td>09/06/2025</td>
+                    </tr>
+                    <tr>
+                        <td>💡 Architect of Structure</td>
+                        <td>Structural Intuition</td>
+                        <td>09/19/2025</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+</body>
+</html>
+
+
+--- END OF FILE: MQ1.html ---
+
+--- START OF FILE: New Text Document.txt ---
+
+--- END OF FILE: New Text Document.txt ---
+
+--- START OF FILE: patch-notes.html ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>🧑🏾‍💼 Codex Career Terminal</title>
+  
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <script src="./js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>🛠️ Patch Notes</h1>
+    <nav>
+      <ul>
+        <li><a href="./dashboard.html">🧑‍💻 Dashboard</a></li>
+        <li><a href="./quest-log.html">🧭 Quest Log</a></li>
+        <li><a href="./skill-tree.html">🌳 Skill Tree</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <a href="../Main-Quest/MQ1/MQ1.md">📜 MQ1 Narrative</a>
+  </main>
+</body>
+</html>
+--- END OF FILE: patch-notes.html ---
+
+--- START OF FILE: quest-log.html ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Codex Quest Log</title>
+  
+  <link rel="stylesheet" href="./css/style.css" />
+  
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  
+  <script src="./js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>🧭 Quest Log</h1>
+    <nav>
+      <ul>
+        <li><a href="./dashboard.html">🧑‍💻 Dashboard</a></li>
+        <li><a href="./skill-tree.html">🌳 Skill Tree</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="quest-content">
+      </section>
+  </main>
+</body>
+</html>
+--- END OF FILE: quest-log.html ---
+
+--- START OF FILE: skill-tree.html ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Codex Skill Tree</title>
+  
+  <link rel="stylesheet" href="./css/style.css" />
+  
+  <script src="./js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>🌳 Codex Skill Tree</h1>
+    <nav>
+      <ul>
+        <li><a href="./dashboard.html">🧑‍💻 Dashboard</a></li>
+        <li><a href="./quest-log.html">🧭 Quest Log</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="skill-tree">
+      <ul class="tree">
+        <li>
+          <button onclick="showSkill('Modular Repo Scaffolding')">Modular Repo Scaffolding</button>
+          <ul>
+            <li>
+              <button onclick="showSkill('GitHub Pages Deployment')">GitHub Pages Deployment</button>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <button onclick="showSkill('Semantic HTML Fluency')">Semantic HTML Fluency</button>
+          <ul>
+            <li>
+              <button onclick="showSkill('React Fundamentals')">React Fundamentals</button>
+              <ul>
+                <li>
+                  <button onclick="showSkill('State Management')">State Management</button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skill-info">
+      <h2>Skill Info</h2>
+      <p id="skill-description">Click a skill to view details.</p>
+    </section>
+  </main>
+</body>
+</html>
+--- END OF FILE: skill-tree.html ---
+
+--- START OF FILE: css\style.css ---
+/* === 🖤 Base Layout === */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cinzel', serif;
+  background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
+  color: #e0e0e0;
+}
+
+/* === 🏰 Header === */
+header {
+  background: linear-gradient(to right, #b8860b, #ffd700, #b8860b);
+  color: #000;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 4px solid #8b0000;
+  box-shadow: 0 4px 10px rgba(255, 215, 0, 0.3);
+}
+
+/* === 🧭 Navigation === */
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav li {
+  padding: 10px;
+}
+
+nav a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  text-shadow: 0 0 5px #ffd700;
+  color: #fff; /* Brighter color on hover */
+  text-decoration: underline;
+}
+
+/* === 📦 Container === */
+.container {
+  background-color: #111;
+  border: 2px solid #ffd700;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  background-image: none;
+  background-size: cover;
+}
+
+/* === 🧾 Typography === */
+h1, h2 {
+  color: #ffd700;
+  text-shadow: 1px 1px 3px #000;
+}
+
+p {
+  color: #d4d4d4;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px #000;
+}
+
+/* === 🕹️ Button === */
+button, a {
+  background-color: #8b0000;
+  color: #fff;
+  border: 2px solid #ffd700;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  margin: 20px auto;
+  display: block;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #a52a2a;
+  box-shadow: 0 0 10px #ffd700;
+}
+
+/* Specific style for the Current Quest button to make it smaller */
+#current-quest-button {
+  display: inline-block;
+  width: auto; /* Allow the button to size to its content */
+}
+
+/* === 🧑🏾‍💼 Footer === */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #999;
+  margin-top: 40px;
+}
+
+/* === 🧮 DP Progress Bar === */
+.progress-bar {
+  width: 100%;
+  height: 24px;
+  background-color: #222;
+  border: 2px solid #ffd700;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+  margin: 10px 0;
+}
+
+.progress-bar .fill {
+  height: 100%;
+  background: linear-gradient(to right, #ffd700, #b8860b);
+  width: 0%;
+  transition: width 0.5s ease-in-out;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#skills li {
+  margin-bottom: 0.5rem;
+}
+.skill-tree {
+  list-style: none;
+  padding-left: 1rem;
+  border-left: 2px solid gold;
+}
+
+.skill-tree li {
+  margin: 0.5rem 0;
+  padding-left: 0.5rem;
+  font-weight: bold;
+  color: #ffd700;
+}
+
+/* === 🌳 Top-Down Skill Tree === */
+.tree {
+  text-align: center;
+  padding: 0;
+  margin: 50px auto;
+  list-style: none;
+}
+
+.tree ul {
+  padding-top: 20px;
+  position: relative;
+  transition: all 0.5s;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.tree ul::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 2px solid gold;
+  width: 0;
+  height: 20px;
+}
+
+.tree li {
+  text-align: center;
+  position: relative;
+  padding: 20px 5px 0 5px;
+}
+
+.tree li::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 2px solid gold;
+  width: 0;
+  height: 20px;
+}
+
+.tree li::after {
+  content: '';
+  position: absolute;
+  top: 19px;
+  left: 0;
+  border-top: 2px solid gold;
+  width: 50%;
+  height: 0;
+}
+
+.tree li:first-child::after {
+  border-top: none;
+}
+
+.tree li:last-child::after {
+  content: '';
+  position: absolute;
+  top: 19px;
+  right: 0;
+  border-top: 2px solid gold;
+  width: 50%;
+  height: 0;
+}
+
+.tree li:only-child::after {
+  border: none;
+}
+
+.tree li:first-child::after,
+.tree li:last-child::after {
+  width: 50%;
+}
+
+.tree li:first-child::before,
+.tree li:last-child::before {
+  left: 50%;
+  border-left: 2px solid gold;
+  height: 20px;
+}
+
+/* === 🖤 End of Style === */
+--- END OF FILE: css\style.css ---
+
+--- START OF FILE: data\dp-data.json ---
+{
+  "name": "Leo Antoine",
+  "class": "Web Developer",
+  "title": "📊 Codex Architect",
+  "level": 3,
+  "dp": 675,
+  "nextlevelDP": 800,
+  "skills": [
+    "💻 HTML Basics",
+    "🎨 CSS Fundamentals",
+    "📝 JavaScript Essentials",
+    "🍃 Git workflow",
+    "🧱 DOM Manipulation",
+    "🎨 GUI Design Principles",
+    "⚙️ Scripting Layer Awareness",
+    "💡 Advanced HTML Semantics"
+  ],
+  "currentChapter": "MQ1 – HTML Syntax & Structure",
+  "currentQuestLink": "./Main-Quest/MQ1/mq1-html-basics.html",
+  "quests": [
+    {
+      "id": "MQ1",
+      "title": "HTML Syntax & Structure",
+      "status": "✅ Completed",
+      "dpEarned": 200,
+      "path": "./MQ1/mq1.md"
+    },
+    {
+      "id": "MQ2",
+      "title": "JavaScript & Data Binding",
+      "status": "🔄 In Progress",
+      "dpEarned": 0,
+      "path": "./MQ2/mq2.md"
+    },
+    {
+      "id": "MQ3",
+      "title": "React Awakening",
+      "status": "⚪ Pending",
+      "dpEarned": 0,
+      "path": "./MQ3/mq3.md"
+    }
+  ],
+  "chapterProgress": {
+    "dpFromLessons": 200,
+    "repoUpdate": 50,
+    "quizScore": 100,
+    "sideQuests": [
+      { "title": "Semantic Tag Hunt", "dp": 50, "status": "complete" },
+      { "title": "README Recruiter Polish", "dp": 25, "status": "pending" },
+      { "title": "The Architect's Gauntlet", "dp": 75, "status": "complete" }
+    ],
+    "repo": {
+      "file": "mq1-html-basics.html",
+      "status": "complete",
+      "commitHash": "abc1234",
+      "lastUpdated": "2025-09-06"
+    },
+    "quiz": {
+      "questions": 10,
+      "correct": 10,
+      "score": 100,
+      "status": "complete"
+    },
+    "codexUnlocks": [
+      { "title": "🧙 Apprentice of HTML", "ability": "Semantic Markup Mastery" },
+      { "title": "🛡️ Adept of the DOM", "ability": "Structural Nesting Discipline" }
+    ],
+    "patchNotes": [
+      { "date": "2025-09-06", "change": "MQ1 Activated", "notes": "HTML structure quest launched" },
+      { "date": "2025-09-06", "change": "Video lessons logged", "notes": "DP maxed at 200" },
+      { "date": "2025-09-06", "change": "Quiz deployed", "notes": "Awaiting results" },
+      { "date": "09-19-2025", "change": "Side Quest: Architect's Gauntlet completed", "notes": "Reinforced HTML fundamentals via targeted practice" }
+    ]
+  },
+  "roadmap": [
+  {
+    "phase": "Core Foundations",
+    "goal": "Build semantic, responsive layouts with recruiter-grade polish",
+    "unlock": ["Markup Strategist", "Layout Sentinel"],
+    "skills": [
+      { "name": "HTML & CSS Basics", "platform": "Scrimba", "link": "https://scrimba.com/learn/frontend" },
+      { "name": "CSS Box Model", "platform": "W3Schools", "link": "https://www.w3schools.com/css/css_boxmodel.asp" }
+    ]
+  },
+  {
+    "phase": "JavaScript & DOM Mastery",
+    "goal": "Build interactive UIs and master DOM events",
+    "unlock": ["DOM Wrangler", "Logic Architect"],
+    "skills": [
+      { "name": "JS Fundamentals", "platform": "Scrimba", "link": "https://scrimba.com/learn/frontend" },
+      { "name": "DOM Manipulation", "platform": "Scrimba", "link": "https://scrimba.com/learn/frontend" }
+    ]
+  }
+]
+}
+--- END OF FILE: data\dp-data.json ---
+
+--- START OF FILE: data\patch-data.json ---
+{
+    "Version": "0.1",
+    "Date": "09-04-2025",
+    "Notes": "Codex Synced, GUI principles unlocked, badge system initialized"
+}
+--- END OF FILE: data\patch-data.json ---
+
+--- START OF FILE: docs\career-roadmap.md ---
+# 🧠 Career Roadmap: Junior Front-End Developer (GDIT Alignment)
+
+## 🎮 Level 3 | DP: 600 | Target: 1000+ | Clearance: TS/SCI w/Poly (Pending Sponsorship)
+
+---
+
+## 🧱 Phase 1: Core Foundations
+
+| Skill              | Platform         | Resource Link                                                                 |
+|--------------------|------------------|-------------------------------------------------------------------------------|
+| HTML & CSS Basics  | Scrimba          | [Web Dev Basics](https://scrimba.com/learn/frontend)                         |
+| HTML & CSS Syntax  | W3Schools        | [HTML Tutorial](https://www.w3schools.com/html/)                             |
+| CSS Box Model      | W3Schools        | [Box Model](https://www.w3schools.com/css/css_boxmodel.asp)                  |
+| Layout Precision   | CSS Battles      | [CSS Battles](https://cssbattle.dev/)                                        |
+| Responsive Design  | Scrimba          | [Responsive Module](https://scrimba.com/learn/frontend)                      |
+| Accessibility      | Frontend Mentor  | [Accessibility Path](https://www.frontendmentor.io/learning-paths)           |
+
+🎯 **Goal**: Build semantic, responsive layouts with recruiter-grade polish  
+🧠 **Codex Unlocks**: Titles: “Markup Strategist”, “Layout Sentinel”
+
+---
+
+## ⚙️ Phase 2: JavaScript & DOM Mastery
+
+| Skill              | Platform         | Resource Link                                                                 |
+|--------------------|------------------|-------------------------------------------------------------------------------|
+| JS Fundamentals    | Scrimba          | [JavaScript Essentials](https://scrimba.com/learn/frontend)                  |
+| JS Syntax & Logic  | W3Schools        | [JS Tutorial](https://www.w3schools.com/js/)                                 |
+| DOM Manipulation   | Scrimba          | [DOM Module](https://scrimba.com/learn/frontend)                             |
+| JS Challenges      | Frontend Mentor  | [JS Fundamentals Path](https://www.frontendmentor.io/learning-paths)         |
+
+🎯 **Goal**: Build interactive UIs and master DOM events  
+🧠 **Codex Unlocks**: Abilities: “DOM Wrangler”, “Logic Architect”
+
+---
+
+## ⚛️ Phase 3: React & TypeScript
+
+| Skill              | Platform         | Resource Link                                                                 |
+|--------------------|------------------|-------------------------------------------------------------------------------|
+| React 19 Basics    | Scrimba          | [React Course](https://scrimba.com/learn/react)                              |
+| React Components   | Scrimba          | [Advanced React](https://scrimba.com/learn/frontend)                         |
+| TypeScript Intro   | W3Schools        | [TS Tutorial](https://www.w3schools.com/typescript/)                         |
+| React Challenges   | Frontend Mentor  | [JS Frameworks Path](https://www.frontendmentor.io/learning-paths)           |
+
+🎯 **Goal**: Build scalable UIs with typed logic and state management  
+🧠 **Codex Unlocks**: Titles: “Component Commander”, “Typed Strategist”
+
+---
+
+## 🧪 Phase 4: APIs, Testing, Deployment
+
+| Skill              | Platform         | Resource Link                                                                 |
+|--------------------|------------------|-------------------------------------------------------------------------------|
+| API Integration    | Scrimba          | [Working with APIs](https://scrimba.com/learn/frontend)                      |
+| Testing Principles | Frontend Mentor  | [Testing Path](https://www.frontendmentor.io/learning-paths)                 |
+| Git & GitHub       | Scrimba          | [Git Module](https://scrimba.com/learn/frontend)                             |
+| GitHub Pages       | W3Schools        | [Deployment Guide](https://www.w3schools.com/git/git_remote_github.asp)     |
+
+🎯 **Goal**: Build production-ready apps with traceable commits and test coverage  
+🧠 **Codex Unlocks**: Abilities: “Patch Note Discipline”, “Deployment Sentinel”
+
+---
+
+## 🧠 Phase 5: Advanced Stack & Job Readiness
+
+| Skill              | Platform         | Resource Link                                                                 |
+|--------------------|------------------|-------------------------------------------------------------------------------|
+| SCSS/Sass Styling  | W3Schools        | [Sass Tutorial](https://www.w3schools.com/sass/)                             |
+| Vite & Build Tools | W3Schools        | [JS Modules](https://www.w3schools.com/js/js_modules.asp)                    |
+| Portfolio Polish   | Scrimba          | [UI Design + Getting Hired](https://scrimba.com/learn/frontend)              |
+| Final Projects     | Frontend Mentor  | [Advanced Challenges](https://www.frontendmentor.io/challenges)              |
+
+🎯 **Goal**: Showcase mastery with recruiter-facing portfolio and codex terminal  
+🧠 **Codex Unlocks**: Titles: “Recruiter-Ready Initiate”, “Codex Architect”
+
+---
+
+## 🔐 Clearance Tracker (TS/SCI + Polygraph)
+
+| Requirement        | Status           | Notes                                  |
+|--------------------|------------------|----------------------------------------|
+| U.S. Citizenship   | ✅ Confirmed      | Eligible for sponsorship               |
+| Sponsorship Path   | ⚪ Pending        | Target: GDIT or similar contractor     |
+| Polygraph Interview| ⚪ Future Step    | Requires agency initiation             |
+| Codex Readiness    | ✅ In Progress    | Modular, traceable, recruiter-facing   |
+
+---
+
+## 🧭 Codex Questlines (Mapped to Responsibilities)
+
+| Responsibility                                      | Quest ID           | Status       |
+|-----------------------------------------------------|---------------------|--------------|
+| Design & support user-facing apps                   | Q005 – React Fundamentals | 🔄 In Progress |
+| Maintain & enhance existing platforms               | Q006 – Patch Discipline   | ⚪ Pending    |
+| Troubleshoot & support software issues              | Q007 – Debugging & Dev Tools | ⚪ Pending    |
+| Recommend improvements                              | Q008 – Continuous Improvement Log | ⚪ Pending    |
+| Collaborate with engineers                          | Q009 – GitLab Workflow & CI/CD | ⚪ Pending    |
+
+--- END OF FILE: docs\career-roadmap.md ---
+
+--- START OF FILE: docs\codex.md ---
+# 🧠 Codex: Career Tracker Edition
+
+## 🏆 Titles Unlocked
+
+| Title                         | Date Unlocked | Source Quest           |
+|------------------------------|----------------|------------------------|
+| 🧭 Architect of Modular Systems | 2025-09-01     | Q101 – Codex Bootstrap |
+| 💼 Recruiter-Ready Initiate     | 2025-09-02     | Q102 – README Polish   |
+| 🧪 Schema Sentinel              | 2025-09-03     | Q103 – Patch Discipline|
+| 🧠 Front-End Strategist         | 2025-09-04     | Q104 – HTML/CSS Mastery|
+
+## 🧠 Abilities Gained
+
+| Ability                      | Date Unlocked | Source Quest           |
+|-----------------------------|----------------|------------------------|
+| Modular Repo Scaffolding     | 2025-09-01     | Q101 – Codex Bootstrap |
+| Recruiter-Facing Polish      | 2025-09-02     | Q102 – README Polish   |
+| Patch Note Discipline        | 2025-09-03     | Q103 – Patch Discipline|
+| Semantic HTML Fluency        | 2025-09-04     | Q104 – HTML/CSS Mastery|
+| GitHub Pages Deployment      | 2025-09-04     | Q104 – HTML/CSS Mastery|
+
+## 🌳 Skill Tree
+
+| Ability                     | Unlocks Next              | Status       |
+|----------------------------|---------------------------|--------------|
+| Modular Repo Scaffolding   | Component Architecture    | ✅ Learned    |
+| Recruiter-Facing Polish    | Portfolio Optimization    | ✅ Learned    |
+| Patch Note Discipline      | Automation Hooks          | ✅ Learned    |
+| Semantic HTML Fluency      | Accessibility Principles  | ✅ Learned    |
+| GitHub Pages Deployment    | CI/CD Integration         | ⚪ Pending    |
+| React Fundamentals         | State Management          | ⚪ Pending    |
+
+## 📅 Phase Progression
+
+| Phase | Focus Area              | Status       |
+|-------|-------------------------|--------------|
+| 1     | HTML/CSS Foundations    | ✅ Complete   |
+| 2     | JavaScript Basics       | 🔄 In Progress|
+| 3     | React & Components      | ⚪ Pending    |
+| 4     | Portfolio Polish        | ⚪ Pending    |
+| 5     | Final Deployment        | ⚪ Pending    |
+
+## 🧭 Quest Index
+
+| Quest ID | Title                      | Status       | Time Spent | Link |
+|----------|----------------------------|--------------|------------|------|
+| Q101     | Codex Bootstrap            | ✅ Completed  | ~2h        | [View](quests/Q101_Codex_Bootstrap.md) |
+| Q102     | README Polish              | ✅ Completed  | ~1h        | [View](quests/Q102_README_Polish.md) |
+| Q103     | Patch Discipline           | ✅ Completed  | ~1.5h      | [View](quests/Q103_Patch_Discipline.md) |
+| Q104     | HTML/CSS Mastery           | ✅ Completed  | ~2h        | [View](quests/Q104_HTML_CSS_Mastery.md) |
+
+## 🛠️ Patch Notes
+
+| Date       | Change                                 | Notes                                 |
+|------------|----------------------------------------|----------------------------------------|
+| 2025-09-01 | Created `career-codex.md`              | Tracker scaffold for career progression |
+| 2025-09-02 | Added README polish and recruiter tags | Improved recruiter visibility           |
+| 2025-09-03 | Logged patch discipline module         | Enabled traceable schema logging       |
+| 2025-09-04 | Logged HTML/CSS mastery quest          | Added semantic fluency and deployment  |
+
+--- END OF FILE: docs\codex.md ---
+
+--- START OF FILE: docs\DP-Log.md ---
+# 🧠 Leo's Mastery Progress Tracker (DP Log)
+
+## 🎮 Current Level: {{ dp.level }}
+
+**Total DP:** {{ dp.dp }}
+**Next Level at:** {{ dp.nextlevelDP }}  
+🔗 [View Skill Tree](skill-tree.md) | [View Quiz Log](quiz-log.md)
+
+---
+
+### 🧠 Completed Chapters
+
+- {{dp.currentChapter }}
+- Lessons: {{ dp.chapterProgress.dpFromLessons }} DP
+- Repo: {{ dp.chapterProgress.repoUpdate }} DP
+- Quiz: {{ dp.chapterProgress.quizScore }} DP
+- Side Quests: {{ dp.charperProgress.sideQuests.length }} logged
+
+---
+
+### 🧠 DP Breakdown (Updated)
+
+- 📺 Video Lesson Completion: +25–50 DP (scaled by relevance)  
+- 🛠️ Repo Update: +50 DP  
+- ❓ Quiz Question: +10 DP per correct  
+- 🧾 Codex Contribution: +25 DP  
+- 🎯 Side Quest Completion: +50 DP (each)
+
+---
+
+### 🧾 Codex Links
+
+- [career-codex.md](../career-roadmap.md)  
+- [skill-tree.md](../skill-tree.md)  
+- [quiz-log.md](../quiz-log.md)
+
+--- END OF FILE: docs\DP-Log.md ---
+
+--- START OF FILE: docs\leveling-system.md ---
+# 🎮 Leveling System v3.1 – Career Tracker Codex
+
+This file defines the modular progression system used across the Codex Career Terminal. It governs how Developer Points (DP) translate into level-ups, unlocks, and mastery tiers.
+
+---
+
+## 🧠 Chapter DP Rules
+
+| Source Type           | DP Earned        | Notes |
+|------------------------|------------------|-------|
+| 📺 Scrimba Lesson      | +25–50 DP         | Scaled by job relevance |
+| 🧱 Max DP per Chapter  | 200 DP            | **Video lessons only** |
+| 🧩 Chapter Folder      | `/chapter-name/`  | Contains all sub-quests and artifacts |
+
+🧠 **Only video lessons contribute to the 200 DP chapter cap**  
+🎯 **Side quests, quizzes, and codex entries earn extra DP**, tracked separately
+
+---
+
+## 🎯 Supplemental DP (Outside Chapter Cap)
+
+| Source Type           | DP Earned        | Notes |
+|------------------------|------------------|-------|
+| 🛠️ Repo Update         | +50 DP            | Must include traceable code |
+| ❓ Quiz Question        | +10 DP per correct| Logged per assessment |
+| 🎯 Side Quest          | +50 DP (max 3)    | Must be job-aligned |
+| 🧾 Codex Contribution   | +25 DP            | Patch notes, titles, abilities |
+| 📸 Screenshot Artifact  | +25 DP            | Added to codex or README |
+
+📦 **Supplemental DP is uncapped** and contributes to overall level progression
+
+---
+
+## 🧱 Level Thresholds
+
+| Level Range     | DP to Level Up | Cumulative DP Span | Tier         |
+|------------------|----------------|---------------------|--------------|
+| Levels 1–4       | 200 DP         | 0–800               | Starter Tier |
+| Levels 5–9       | 300 DP         | 801–2300            | Mid Tier     |
+| Levels 10–14     | 400 DP         | 2301–4300           | Advanced Tier|
+| Levels 15–19     | 500 DP         | 4301–6800           | Master Tier  |
+| Level 20+        | Custom Scaling | 6801+               | Prestige Tier|
+
+🔁 Every 5 levels, DP required increases by +100  
+📈 Encourages deeper mastery and modular questing
+
+---
+
+## 🧙‍♂️ Title Progression
+
+| Level | DP Range     | Title Example               |
+|-------|--------------|-----------------------------|
+| 1     | 0–200        | 🌱 Newborn Coder            |
+| 2     | 201–400      | 🧙 Apprentice of HTML        |
+| 3     | 401–600      | 🛡️ Adept of the DOM          |
+| 4     | 601–800      | 🎨 CSS Initiate              |
+| 5     | 801–1100     | ⚔️ DOM Strategist            |
+| 6     | 1101–1400    | 🧠 Event Architect           |
+| 7     | 1401–1700    | 📱 Responsive Engineer       |
+| 8     | 1701–2000    | 🧪 UX Alchemist              |
+| 9     | 2001–2300    | 🧾 Codex Refactorer          |
+| 10    | 2301–2700    | 🏗️ Full Stack Initiate       |
+
+---
+
+## 🔄 Integration Protocol
+
+Update the following files when a level-up or DP milestone occurs:
+
+| File Name         | Update Required                          |
+|-------------------|-------------------------------------------|
+| `README.md`       | Current level, DP, and unlocked skills    |
+| `DP-Log.md`       | DP earned, source, and cumulative total   |
+| `codex.md`        | Title unlocked, abilities gained          |
+| `Skill-Tree.md`   | New nodes unlocked                        |
+| `Patch-Notes.md`  | Versioned log of changes                  |
+| `Quiz-Log.md`     | Assessment results and DP earned          |
+| `webpage-start.md`| Visual updates if applicable              |
+
+---
+
+## 🧾 Notes
+
+- Use **MM-DD-YYYY** format for all timestamps  
+- Patch version must increment (e.g. v1.4.5 → v1.5)  
+- Emoji polish required for codex consistency  
+- Side quests and codex refactors are encouraged to reach higher tiers.
+
+--- END OF FILE: docs\leveling-system.md ---
+
+--- START OF FILE: docs\patch-notes.md ---
+
+--- END OF FILE: docs\patch-notes.md ---
+
+--- START OF FILE: docs\patch-template.md ---
+# 🛠️ Patch Template
+
+Use this template to log any completed **lesson**, **assessment**, **side quest**, **level up**, or significant **DP gain**. Only update files that reflect actual changes. Skip any file with no relevant update.
+
+---
+
+## 📅 Patch Version: vX.X
+
+**Date:** MM-DD-YYYY  
+**Trigger Event:** (e.g. Q3_Assessment, Level 4 Unlock, SideQuest: DOM Events)
+
+---
+
+## ✅ Files Updated
+
+| File Name         | Reason for Update                                      |
+|------------------|--------------------------------------------------------|
+| `Skill-Tree.md`   | New skills gained, nodes unlocked                     |
+| `README.md`       | Progress summary, level change, visual indicators     |
+| `Quiz-Log.md`     | Assessment results, DP earned, topic coverage         |
+| `Patch-Notes.md`  | Versioned log of all changes                          |
+| `DP-Log.md`       | DP source, amount, cumulative total                   |
+| `codex.md`        | Titles, abilities, quest index, phase progression     |
+| `webpage-start.md`| UI changes, new unlocks reflected in landing logic    |
+
+---
+
+## 🧾 Patch Summary
+
+**Event:**
+
+Brief description of what was completed (e.g. “Completed Q3_Assessment covering DOM manipulation and event handling.”)
+
+**DP Earned:**
+
+Amount gained and source (e.g. +150 DP from quiz)
+
+**Level Change:**
+
+If applicable (e.g. Leveled up to Level 4 – 🎯 DOM Strategist)
+
+**Skills Unlocked:**
+
+List new skills and their unlock paths
+
+**Abilities Gained:**
+
+List new abilities added to `codex.md`
+
+**Quest Log Update:**
+
+Add new quest entry to `quiz-log.md` and `codex.md` index
+
+---
+
+## 🧠 Notes
+
+- Only update files with relevant changes  
+- Use MM-DD-YYYY format for all timestamps  
+- Emoji polish required for codex consistency  
+- Patch version must increment (e.g. v1.5 → v1.6)
+
+---
+
+## 🔗 Related Files
+
+- [codex.md](../codex.md)  
+- [Skill-Tree.md](../Skill-Tree.md)  
+- [Patch-Notes.md](../Patch-Notes.md)  
+- [DP-Log.md](../DP-Log.md)  
+- [Quiz-Log.md](../Quiz-Log.md)  
+- [README.md](../README.md)  
+- [webpage-start.md](../webpage-start.md)
+
+--- END OF FILE: docs\patch-template.md ---
+
+--- START OF FILE: docs\quest-log.md ---
+
+--- END OF FILE: docs\quest-log.md ---
+
+--- START OF FILE: docs\quiz-log.md ---
+
+--- END OF FILE: docs\quiz-log.md ---
+
+--- START OF FILE: docs\skill-tree.md ---
+# 🌳 Skill Tree – Codex Career Terminal
+
+## 🧱 Foundation Tier
+
+- ✅ HTML Basics (MQ1)
+- ✅ CSS Fundamentals (MQ2)
+- ⬜ JavaScript Essentials (MQ3)
+
+## ⚛️ Framework Tier
+
+- ⬜ React 19
+- ⬜ Redux
+- ⬜ TypeScript
+
+## 🧪 DevOps Tier
+
+- ⬜ Git Workflow
+- ⬜ Vite + Build Tools
+- ⬜ Microservices + Docker
+
+## ☁️ Cloud Tier
+
+- ⬜ AWS
+- ⬜ Kubernetes
+- ⬜ Kafka + Cassandra
+
+## 🧠 Unlocks
+
+- 🧙 Apprentice of HTML
+- 🛡️ Adept of the DOM
+- 📊 Codex Architect
+
+--- END OF FILE: docs\skill-tree.md ---
+
+--- START OF FILE: docs\template.md ---
+# 🗺️ Quest: [Insert Quest Title Here]
+
+**Quest ID**: QXXX  
+**Date Started**: MM-DD-YYYY  
+**Date Completed**: MM-DD-YYYY  
+**Status**: 🔄 In Progress | ✅ Completed | ⚪ Pending  
+**Developer Points Earned**: +___ DP  
+**Level Unlocked**: 🎮 Level __
+**Class at Completion**: 🧙 [Disciple | Apprentice | Journeyman | etc.]  
+🔗 [DP Log](../dp-log.md#qXXX) | [Quiz Log](../quiz-log.md#qXXX) | [Skill Tree](../skill-tree.md#🧱-foundations)
+
+---
+
+## 🎯 Objectives
+
+- [Objective 1]  
+- [Objective 2]  
+- [Optional Bonus Objective]
+
+---
+
+## 📐 ASCII Sketch
+
+[Insert layout diagram or visual scaffold here]
+
+---
+
+### ⚔️ Leo's Dev Status Sheet – [MM-DD-YYYY]
+
+**Titles Earned**:
+
+- 🏁 [Title Name] – [Reason or milestone]  
+- 🌱 [Title Name] – [Reason or milestone]
+
+**Abilities Unlocked**:
+
+- 🧠 [Skill or concept mastered]  
+- 🧠 [Skill or concept mastered]  
+- 🧠 [Skill or concept mastered]
+
+**Next Milestone**:
+
+- [Upcoming quest or skill unlock]  
+- [Next title to earn]
+
+---
+
+### 📘 Lesson Summary
+
+**Topics Covered**:
+
+- [Concept 1]  
+- [Concept 2]  
+- [Concept 3]
+
+**Missed Concepts**:
+
+- [If any]
+
+---
+
+### 🧠 Reflection
+
+> [Write a short reflection on what you learned, struggled with, or found interesting.]
+
+---
+
+## 🔁 Post-Quest Reinforcement
+
+- [Follow-up task or challenge]  
+- [Quiz or review item]  
+- [Bonus reinforcement]
+
+---
+
+## 🧾 Codex Integration (Optional)
+
+- [Codex Entry: Topic Name](../codex.md#topic-name)  
+- [Patch Notes: QXXX Upgrade](../codex.md#patch-notes-qxxx)
+
+--- END OF FILE: docs\template.md ---
+
+--- START OF FILE: js\script.js ---
+// This event listener waits for the HTML document to be fully loaded
+// before executing the code.
+document.addEventListener('DOMContentLoaded', () => {
+
+  // This is a single data source for both the dashboard and skill tree.
+  // It will eventually be loaded from your JSON file.
+  const skillData = {
+    'Modular Repo Scaffolding': {
+      description: 'Ability to set up clean, scalable project structures.',
+      unlocked: true,
+      prerequisite: null,
+    },
+    'Semantic HTML Fluency': {
+      description: 'Using correct HTML tags to create meaningful and accessible documents.',
+      unlocked: true,
+      prerequisite: null,
+    },
+    'GitHub Pages Deployment': {
+      description: 'Publishing your project live for recruiter access.',
+      unlocked: true,
+      prerequisite: 'Modular Repo Scaffolding',
+    },
+    'React Fundamentals': {
+      description: 'Understanding of components, props, and JSX.',
+      unlocked: false,
+      prerequisite: 'Semantic HTML Fluency',
+    },
+    'State Management': {
+      description: 'Managing application data with React hooks or Redux.',
+      unlocked: false,
+      prerequisite: 'React Fundamentals',
+    },
+  };
+
+  // We check the current page to run the correct functions.
+  // This helps keep your code organized.
+  if (window.location.pathname.includes('dashboard.html')) {
+    fetchDataAndRenderDashboard();
+  } else if (window.location.pathname.includes('skill-tree.html')) {
+    renderSkillTreeHTML(skillData);
+  } else if (window.location.pathname.includes('quest-log.html')) {
+    // Check if the URL has a quest ID parameter.
+    const urlParams = new URLSearchParams(window.location.search);
+    const questId = urlParams.get('id');
+
+    if (questId) {
+      // If a quest ID is in the URL, fetch the list to find the quest path.
+      fetch('./data/dp-data.json')
+        .then(response => response.json())
+        .then(data => {
+          const quest = data.quests.find(q => q.id === questId);
+          if (quest) {
+            renderQuestLog(quest.path);
+          } else {
+            console.error('Quest not found:', questId);
+          }
+        })
+        .catch(error => console.error('Error fetching quests:', error));
+    } else {
+      // If no quest ID, render the list of all quests.
+      fetch('./data/dp-data.json')
+        .then(response => response.json())
+        .then(data => renderQuestList(data.quests))
+        .catch(error => console.error('Error fetching quests:', error));
+    }
+  }
+
+  // --- Functions for Dashboard & Data Fetching ---
+
+  // This function fetches data from your JSON file.
+  function fetchDataAndRenderDashboard() {
+    fetch('./data/dp-data.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Find the active quest's path in the new 'quests' array
+        const activeQuest = data.quests.find(q => q.status.includes('In Progress'));
+        const currentQuestButton = document.getElementById('current-quest-button');
+        if (currentQuestButton && activeQuest) {
+          // The path is now relative to the HTML file's location
+          currentQuestButton.href = `../Main-Quest/${activeQuest.id}/${activeQuest.id.toLowerCase()}.md`;
+        }
+        renderDashboard(data);
+      })
+      .catch(error => {
+        console.error('Fetch failed:', error);
+      });
+  }
+
+  // This function takes the JSON data and populates the HTML elements for the dashboard.
+  function renderDashboard(data) {
+    // Get the level and next-level DP from the calculation function.
+    const levelInfo = calculateLevel(data.dp);
+
+    // Update the HTML elements with the new data.
+    document.getElementById('name').textContent = data.name;
+    document.getElementById('class').textContent = data.class;
+    document.getElementById('title').textContent = data.title;
+    document.getElementById('dp').textContent = data.dp;
+
+    // Use the values from the calculation.
+    document.getElementById('level').textContent = levelInfo.level;
+    document.getElementById('nextlevelDP').textContent = levelInfo.nextLevelDP;
+
+    // DP Progress Bar
+    const progressFill = document.querySelector('.progress-bar .fill');
+    const progressTextContainer = document.getElementById('progress-text');
+    if (progressFill && levelInfo.nextLevelDP > 0) {
+      const percentage = (data.dp / levelInfo.nextLevelDP) * 100;
+      progressFill.style.width = `${percentage}%`;
+      if (progressTextContainer) {
+        progressTextContainer.textContent = `${data.dp} / ${levelInfo.nextLevelDP} DP`;
+      }
+    }
+
+    // Skills List
+    const skillsList = document.getElementById('skills');
+    if (skillsList && Array.isArray(data.skills)) {
+      skillsList.innerHTML = '';
+      data.skills.forEach(skill => {
+        const skillItem = document.createElement('li');
+        skillItem.textContent = skill;
+        skillsList.appendChild(skillItem);
+      });
+    }
+  }
+
+  // This function calculates the current level and next level's DP threshold.
+  // It uses the rules defined in your leveling-system.md file.
+  function calculateLevel(currentDP) {
+    const levels = [
+      { threshold: 200, level: 1 },
+      { threshold: 400, level: 2 },
+      { threshold: 600, level: 3 },
+      { threshold: 800, level: 4 },
+      // Add more levels here from your leveling-system.md
+    ];
+
+    let currentLevel = 1;
+    let nextLevelDP = 200;
+
+    for (let i = 0; i < levels.length; i++) {
+      if (currentDP >= levels[i].threshold) {
+        currentLevel = levels[i].level;
+        if (i + 1 < levels.length) {
+          nextLevelDP = levels[i + 1].threshold;
+        } else {
+          nextLevelDP = 'Scaling...';
+        }
+      }
+    }
+
+    return {
+      level: currentLevel,
+      nextLevelDP: nextLevelDP
+    };
+  }
+
+  // --- Functions for Skill Tree & Quest Log ---
+
+  // This function is for your skill-tree.html page to handle the locked/unlocked state.
+  function renderSkillTreeHTML(skillData) {
+    const treeItems = document.querySelectorAll('.tree li button');
+    treeItems.forEach(button => {
+      const skillName = button.textContent.trim();
+      const skill = skillData[skillName];
+      if (skill && !skill.unlocked) {
+        button.classList.add('locked');
+        button.onclick = null;
+      }
+    });
+  }
+
+  // This function is for your quest log page
+  function fetchDataAndRenderQuestLog() {
+    fetch('./data/dp-data.json')
+      .then(response => response.json())
+      .then(data => renderQuestList(data.quests))
+      .catch(error => console.error('Error fetching quests:', error));
+  }
+
+  // This function dynamically renders a list of quests from the JSON data.
+  function renderQuestList(quests) {
+    const questListContainer = document.getElementById('quest-list');
+    if (!questListContainer) return;
+
+    // Clear any existing content
+    questListContainer.innerHTML = '';
+
+    // Loop through each quest in the array
+    quests.forEach(quest => {
+      // Create a new div for each quest
+      const questItem = document.createElement('div');
+      questItem.classList.add('quest-item'); // Add a class for styling
+
+      // Check if the quest is "In Progress" and add the 'active' class
+      if (quest.status.includes('In Progress')) {
+        questItem.classList.add('active-quest');
+      }
+
+      // Use a template literal to create the HTML for each quest
+      // The path is now relative to the HTML file's location
+      questItem.innerHTML = `
+          <h3>${quest.title}</h3>
+          <p><strong>Status:</strong> ${quest.status}</p>
+          <p><strong>DP Earned:</strong> +${quest.dpEarned} DP</p>
+<a href="./quest-log.html?id=${quest.id}">View Details</a>      `;
+
+      // Add the new quest item to the list
+      questListContainer.appendChild(questItem);
+    });
+  }
+
+  // This function fetches and renders the Markdown quest log.
+  // It takes the path as an argument, making it reusable.
+  async function renderQuestLog(mdFilePath) {
+    try {
+      const response = await fetch(mdFilePath);
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      const markdownContent = await response.text();
+      
+      const checklistRegex = /^\s*-\s*\[([x\s])\]\s(.+)/gm;
+      let match;
+      let checklistHtml = '<ul>';
+      
+      const markdownWithoutChecklist = markdownContent.replace(checklistRegex, (match, checkbox, text) => {
+        const isChecked = checkbox === 'x';
+        checklistHtml += `
+          <li>
+            <input type="checkbox" ${isChecked ? 'checked' : ''} disabled>
+            <label>${text}</label>
+          </li>
+        `;
+        return '';
+      });
+
+      checklistHtml += '</ul>';
+
+      const htmlContent = marked.parse(markdownWithoutChecklist);
+      
+      const questContainer = document.getElementById('quest-content');
+      if (questContainer) {
+        questContainer.innerHTML = htmlContent + checklistHtml;
+      }
+
+    } catch (error) {
+      console.error('Failed to load quest log:', error);
+    }
+  }
+
+  // This function is for showing the skill information when a button is clicked.
+  window.showSkill = (skillName) => {
+    const infoSection = document.getElementById('skill-description');
+    const skill = skillData[skillName];
+    if (skill) {
+      if (skill.unlocked) {
+        infoSection.textContent = skill.description;
+      } else {
+        infoSection.textContent = `This skill is currently locked. You must first unlock "${skill.prerequisite}".`;
+      }
+    }
+  };
+});
+--- END OF FILE: js\script.js ---
+
