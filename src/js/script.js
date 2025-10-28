@@ -118,10 +118,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Skills List
-    const skillsList = document.getElementById('skills');
-    if (skillsList && Array.isArray(data.skills)) {
-      skillsList.innerHTML = '';
-      data.skills.forEach(skill => {
+    const skillsList = document.getElementById('skills'); 
+    if (skillsList && Array.isArray(data.skills)) { 
+      skillsList.innerHTML = ''; 
+
+      // Get only the last 5 skills from the array
+      const latestskills = data.skills.slice(-5);
+
+      // Now, Loop over just those 5 skills
+      latestskills.forEach(skill => { // <--- THIS LINE WAS CORRECTED
         const skillItem = document.createElement('li');
         skillItem.textContent = skill;
         skillsList.appendChild(skillItem);

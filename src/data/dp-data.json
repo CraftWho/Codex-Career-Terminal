@@ -3,7 +3,7 @@
   "class": "Web Developer",
   "title": "📊 Codex Architect",
   "level": 3,
-  "dp": 675,
+  "dp": 750,
   "nextlevelDP": 800,
   "skills": [
     "💻 HTML Basics",
@@ -46,9 +46,11 @@
     "quizScore": 100,
     "sideQuests": [
       { "title": "Semantic Tag Hunt", "dp": 50, "status": "complete" },
-      { "title": "README Recruiter Polish", "dp": 25, "status": "pending" },
-      { "title": "The Architect's Gauntlet", "dp": 75, "status": "complete" }
+      { "title": "README Recruiter Polish", "dp": 25, "status": "complete" },
+      { "title": "CSS Battle Screenshot", "dp": 50, "status": "complete" },
+      { "title": "The Architect's Gauntlet", "dp": 75, "status": "complete"}
     ],
+      
     "repo": {
       "file": "mq1-html-basics.html",
       "status": "complete",
