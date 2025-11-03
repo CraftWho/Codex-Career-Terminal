@@ -1,6 +1,5 @@
 # 🧠 MQ1 – HTML Syntax & Structure
-
-📁 Location: `/Main-Quest/MQ1/`  
+  
 🎮 Max DP from Lessons: 200  
 🔓 Codex Unlocks: 🧙 Apprentice of HTML, 🛡️ Adept of the DOM  
 📅 Date Started: 09/06/2025  

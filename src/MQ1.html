@@ -4,200 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codex: MQ1 – HTML Syntax & Structure</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        /*
-        ----------------------------------
-        BLACK/GOLD/RED AESTHETICS (Tactical/Luxury)
-        ----------------------------------
-        */
-        :root {
-            /* User Preferred Palette */
-            --main-bg: #111111;              /* Black */
-            --primary-gold: #FFD700;         /* Gold (Vibrant) */
-            --accent-red: #DC143C;           /* Red (Crimson for emphasis) */
-            --secondary-silver: #777777;     /* Silver/Dark Grey for dividers */
-            
-            /* Calculated Variables */
-            --gold-glow: 0 0 8px rgba(255, 215, 0, 0.8);        /* Gold text glow */
-            --red-shadow: 0 0 15px rgba(220, 20, 60, 0.6);      /* Red container shadow */
-        }
-        
-        body {
-            /* Console/Codex Background and Font */
-            background-color: var(--main-bg);
-            color: var(--primary-gold);
-            font-family: 'Consolas', 'Courier New', monospace;
-            max-width: 1100px;
-            margin: 40px auto;
-            padding: 30px; 
-            border: 3px solid var(--primary-gold); 
-            box-shadow: var(--red-shadow); 
-            border-radius: 5px;
-            line-height: 1.6;
-        }
-
-        h1 {
-            color: var(--primary-gold);
-            font-size: 2.2rem;
-            margin-bottom: 5px;
-            text-shadow: var(--gold-glow);
-            letter-spacing: 1px;
-            border-bottom: 2px solid var(--accent-red); 
-            padding-bottom: 10px;
-        }
-
-        h2 {
-            color: var(--primary-gold);
-            font-size: 1.5rem;
-            border-bottom: 1px solid var(--secondary-silver); 
-            padding-bottom: 8px;
-            margin-top: 30px;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-        }
-
-        a {
-            color: var(--primary-gold);
-            text-decoration: none;
-            text-shadow: 0 0 5px rgba(255, 215, 0, 0.4);
-            transition: color 0.2s;
-        }
-
-        a:hover {
-            color: var(--accent-red); 
-            text-decoration: underline;
-        }
-
-        code {
-            color: var(--primary-gold);
-            background-color: rgba(255, 215, 0, 0.08); 
-            padding: 2px 4px;
-            border-radius: 3px;
-        }
-
-        /*
-        ----------------------------------
-        LAYOUT & SECTIONS
-        ----------------------------------
-        */
-
-        /* Quest Meta Data (Flexbox for neat arrangement) */
-        .quest-meta-data {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px 40px;
-            padding: 15px 0 25px 0;
-            margin-bottom: 20px;
-            border-top: 1px dashed var(--secondary-silver);
-        }
-
-        .quest-meta-data p {
-            /* Giving meta data a recessed, internal screen feel */
-            background-color: #222222; 
-            color: var(--secondary-silver);
-            padding: 4px 10px;
-            border-radius: 2px;
-            font-size: 0.9rem;
-            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
-            border: 1px solid var(--secondary-silver);
-        }
-
-        /* Responsive Grid for 2x2 Symmetry */
-        .quest-data-grid {
-            display: grid;
-            /* 2 columns on desktop, stacks on mobile */
-            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-            gap: 40px 30px; /* Vertical and horizontal gap */
-            margin-top: 30px;
-        }
-        
-        /*
-        ----------------------------------
-        TABLE STYLING (THE LOG)
-        ----------------------------------
-        */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-            background-color: transparent;
-        }
-
-        thead th {
-            background-color: #222222; 
-            color: var(--primary-gold);
-            padding: 12px 10px;
-            text-align: left;
-            border-bottom: 2px solid var(--primary-gold);
-            text-transform: uppercase;
-            font-weight: bold;
-        }
-
-        tbody tr {
-            transition: background-color 0.1s;
-        }
-
-        tbody tr:nth-child(even) {
-            background-color: #1a1a1a; 
-        }
-
-        tbody tr:hover {
-            background-color: rgba(220, 20, 60, 0.1); 
-            color: var(--accent-red);
-            cursor: default;
-        }
-
-        td {
-            padding: 10px;
-            /* Dashed silver line for separation */
-            border-bottom: 1px dashed var(--secondary-silver);
-            color: #C0C0C0; /* Use silver for general cell text */
-        }
-        
-        .status-complete { color: var(--primary-gold); }
-        .status-pending { color: var(--accent-red); }
-
-        /* The Total Row uses RED for immediate importance */
-        .total-row td {
-             background-color: #331111 !important; 
-             color: var(--accent-red) !important;
-             font-weight: bold;
-             text-shadow: 0 0 5px rgba(220, 20, 60, 0.5);
-             border-top: 2px solid var(--accent-red);
-             border-bottom: none !important;
-        }
-    </style>
+    
+    <!-- This is the key theme file for all mission pages -->
+    <link rel="stylesheet" href="./css/codex-quest.css"> 
+    
 </head>
 <body>
     <header>
         <h1>🧠 MQ1 – HTML Syntax & Structure</h1>
         <div class="quest-meta-data">
-            <p>📁 Location: <code>/Main-Quest/MQ1/</code></p>
             <p>🎮 Max DP from Lessons: 200</p>
-            <p>🔓 Codex Unlocks: 🧙 Apprentice of HTML, 🛡️ Adept of the DOM</p>
             <p>📅 Date Started: 09/06/2025</p>
             <p>📅 Date Completed: — (In Progress)</p>
         </div>
     </header>
 
+    <!-- 
+      NEW "OFFICIAL" STATUS BANNER
+      This gives immediate, high-level context.
+      Change "status-active" to "status-complete" to turn it gold.
+    -->
+    <div class="mission-status status-active">
+        STATUS: ACTIVE
+    </div>
+
     <main>
-        <section class="quest-brief">
-            <h2>🎯 Objective</h2>
+        <!-- 
+          ZONE 1: THE BRIEFING
+          This top section clearly defines the mission goals.
+        -->
+        <section class="mission-briefing">
+            <h2>🎯 Mission Objective</h2>
             <p>Master the foundational structure of HTML using semantic tags, proper nesting, and document architecture. This quest sets the groundwork for all future UI development and aligns directly with recruiter expectations for clean, accessible markup.</p>
             
-            <h2 class="mt-4">🛠️ Repo Task</h2>
-            <p>📄 File: <code>mq1-html-basics.html</code></p>
-            <p>🎯 DP Earned: +100 (perfect score) or +50 (partial)</p>
-            <p>📅 Date Completed: — (Pending)</p>
+            <h2 class="task-header">🛠️ Core Tasks</h2>
+            <ul class="core-tasks-list">
+                <li>
+                    <strong>Repo Task:</strong> <code>mq1-html-basics.html</code>
+                    <span class="task-reward">(+50 DP)</span>
+                </li>
+                <li>
+                    <strong>Quiz Challenge:</strong> <code>mq1-quiz.md</code>
+                    <span class="task-reward">(+100 DP)</span>
+                </li>
+                <li>
+                    <strong>Review:</strong> Scrimba Introduction to HTML
+                    <span class="task-reward">(+200 DP)</span>
+                </li>
+            </ul>
         </section>
 
-        <!-- Symmetric 2x2 Grid for Data Tables -->
+        <!-- 
+          ZONE 2: LOGS & DATA GRID
+          This is the existing grid, now clearly separated from the briefing.
+          I've added the new "Artifacts" panel.
+        -->
         <div class="quest-data-grid">
             
             <section class="log-panel">
                 <h2>📺 Scrimba Lesson Breakdown (DP Log)</h2>
-                <p class="mb-4">📦 Source: <a href="https://scrimba.com/introduction-to-html-c02e">Scrimba – Introduction to HTML</a></p>
+                <p class="panel-subtitle">📦 Source: <a href="https://scrimba.com/introduction-to-html-c02e">Scrimba – Introduction to HTML</a></p>
                 <table>
                     <thead>
                         <tr>
@@ -210,19 +76,19 @@
                     <tbody>
                         <tr>
                             <td>Creating an HTML Document</td>
-                            <td><span class="status-complete">🟢 High</span></td>
+                            <td><span class="status-high">🟢 High</span></td>
                             <td>+75 DP</td>
                             <td>09/06/2025</td>
                         </tr>
                         <tr>
                             <td>Nesting HTML Elements</td>
-                            <td><span class="status-complete">🟢 High</span></td>
+                            <td><span class="status-high">🟢 High</span></td>
                             <td>+75 DP</td>
                             <td>09/06/2025</td>
                         </tr>
                         <tr>
                             <td>Head Elements & Scripts in HTML</td>
-                            <td><span style="color: #FFD700;">🟡 Medium</span></td>
+                            <td><span class="status-medium">🟡 Medium</span></td>
                             <td>+50 DP</td>
                             <td>09/06/2025</td>
                         </tr>
@@ -236,6 +102,7 @@
             
             <section class="log-panel">
                 <h2>🧾 Patch Notes</h2>
+                <p class="panel-subtitle">Log of all changes related to this mission.</p>
                 <table>
                     <thead>
                         <tr>
@@ -270,13 +137,13 @@
             </section>
             
             <section class="log-panel">
-                <h2>🧩 Side Quests</h2>
+                <h2>🧩 Associated Side Quests</h2>
+                <p class="panel-subtitle">Optional objectives attached to this mission.</p>
                 <table>
                     <thead>
                         <tr>
                             <th>SQ ID</th>
                             <th>Title</th>
-                            <th>DP Earned</th>
                             <th>Status</th>
                             <th>Date Completed</th>
                         </tr>
@@ -285,21 +152,18 @@
                         <tr>
                             <td>SQ1</td>
                             <td>Semantic Tag Hunt</td>
-                            <td>+50 DP</td>
                             <td><span class="status-complete">✅ Complete</span></td>
                             <td>09/19/2025</td>
                         </tr>
                         <tr>
                             <td>SQ2</td>
                             <td>README Recruiter Polish</td>
-                            <td>+25 DP</td>
                             <td><span class="status-pending">⬜ Pending</span></td>
                             <td>—</td>
                         </tr>
                         <tr>
                             <td>SQ3</td>
                             <td>CSS Battle Screenshot</td>
-                            <td>+50 DP</td>
                             <td><span class="status-pending">⬜ Pending</span></td>
                             <td>—</td>
                         </tr>
@@ -307,38 +171,48 @@
                 </table>
             </section>
 
+            <!-- 
+              NEW "ARTIFACTS" PANEL
+              This consolidates all relevant links for the mission.
+            -->
             <section class="log-panel">
-                <h2>🔓 Codex Unlocks</h2>
-                <p>Skills and abilities gained during this quest and permanently added to the skill tree.</p>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Title</th>
-                            <th>Ability Unlocked</th>
-                            <th>Date Earned</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>🧙 Apprentice of HTML</td>
-                            <td>Semantic Markup Mastery</td>
-                            <td>09/06/2025</td>
-                        </tr>
-                        <tr>
-                            <td>🛡️ Adept of the DOM</td>
-                            <td>Structural Nesting Discipline</td>
-                            <td>09/06/2025</td>
-                        </tr>
-                        <tr>
-                            <td>💡 Architect of Structure</td>
-                            <td>Structural Intuition</td>
-                            <td>09/19/2025</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h2>📁 Project Artifacts & Links</h2>
+                <p class="panel-subtitle">All relevant files and external resources.</p>
+                <ul class="artifact-list">
+                    <li>
+                        <a href="../Main-Quest/MQ1/mq1-html-basics.html" target="_blank">
+                            <strong>[CODE]</strong> <span>mq1-html-basics.html</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Main-Quest/MQ1/mq1-quiz.md" target="_blank">
+                            <strong>[QUIZ]</strong> <span>mq1-quiz.md</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://scrimba.com/introduction-to-html-c02e" target="_blank">
+                            <strong>[SOURCE]</strong> <span>Scrimba HTML Course</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Side-Quest/SQ1.md" target="_blank">
+                            <strong>[SQ1]</strong> <span>Side Quest: Semantic Tag Hunt</span>
+                        </a>
+                    </li>
+                </ul>
             </section>
+        </div> <!-- End of Quest Data Grid -->
 
-        </div>
+        <!-- 
+          ZONE 3: MISSION DEBRIEF
+          A final, full-width section for reflections.
+        -->
+        <section class="mission-debrief">
+            <h2>🧠 Mission Debrief</h2>
+            <blockquote>
+                "This quest was foundational. Mastering the core HTML structure and semantic tags isn't just about passing a quiz; it's about building the discipline for clean, accessible, and professional-grade markup. The separation of content (HTML) from presentation (CSS) is clearer than ever. This is the bedrock for all future React components and UI development."
+            </blockquote>
+        </section>
 
     </main>
 

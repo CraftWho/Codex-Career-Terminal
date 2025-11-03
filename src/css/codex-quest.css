@@ -1,0 +1,316 @@
+/*
+----------------------------------
+BLACK/GOLD/RED AESTHETICS (Tactical/Luxury)
+----------------------------------
+*/
+:root {
+    /* User Preferred Palette */
+    --main-bg: #111111;              /* Black */
+    --primary-gold: #FFD700;         /* Gold (Vibrant) */
+    --accent-red: #DC143C;           /* Red (Crimson for emphasis) */
+    --secondary-silver: #777777;     /* Silver/Dark Grey for dividers */
+    --text-color: #C0C0C0;           /* Main text color (Silver) */
+    
+    /* Calculated Variables */
+    --gold-glow: 0 0 8px rgba(255, 215, 0, 0.8);        /* Gold text glow */
+    --red-shadow: 0 0 15px rgba(220, 20, 60, 0.6);      /* Red container shadow */
+}
+
+body {
+    /* Console/Codex Background and Font */
+    background-color: var(--main-bg);
+    color: var(--text-color); /* Default to silver text */
+    font-family: 'Consolas', 'Courier New', monospace;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px; 
+    border: 3px solid var(--primary-gold); 
+    box-shadow: var(--red-shadow); 
+    border-radius: 5px;
+    line-height: 1.6;
+}
+
+/* === 🏰 Header === */
+header {
+  background: linear-gradient(to right, #b8860b, #ffd700, #b8860b);
+  color: #000;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 4px solid #8b0000;
+  box-shadow: 0 4px 10px rgba(255, 215, 0, 0.3);
+  /* Reset body padding for full-width header */
+  margin: -30px -30px 0 -30px;
+  border-radius: 0; /* Header corners shouldn't be rounded */
+}
+
+h1 {
+    color: var(--primary-gold);
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+    text-shadow: var(--gold-glow);
+    letter-spacing: 1px;
+    border-bottom: 2px solid var(--accent-red); 
+    padding-bottom: 10px;
+    /* Re-add margin now that header is full-width */
+    margin-top: 30px;
+}
+
+h2 {
+    color: var(--primary-gold);
+    font-size: 1.5rem;
+    border-bottom: 1px solid var(--secondary-silver); 
+    padding-bottom: 8px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+a {
+    color: var(--primary-gold);
+    text-decoration: none;
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.4);
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: var(--accent-red); 
+    text-decoration: underline;
+}
+
+code {
+    color: var(--primary-gold);
+    background-color: rgba(255, 215, 0, 0.08); 
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.panel-subtitle {
+    font-size: 0.9rem;
+    color: var(--secondary-silver);
+    margin-top: -15px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+/*
+----------------------------------
+NEW: MISSION STATUS BANNER
+----------------------------------
+*/
+.mission-status {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 30px; /* Space from header */
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.status-active {
+    background-color: var(--accent-red);
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+.status-complete {
+    background-color: var(--primary-gold);
+    color: #000;
+    text-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+
+/*
+----------------------------------
+LAYOUT & SECTIONS
+----------------------------------
+*/
+
+/* Quest Meta Data (Flexbox for neat arrangement) */
+.quest-meta-data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 40px;
+    padding: 15px 0 25px 0;
+    margin-bottom: 20px;
+    border-top: 1px dashed var(--secondary-silver);
+    /* Re-add horizontal padding to align content */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.quest-meta-data p {
+    background-color: #222222; 
+    color: var(--secondary-silver);
+    padding: 4px 10px;
+    border-radius: 2px;
+    font-size: 0.9rem;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--secondary-silver);
+    margin: 0;
+}
+
+/* NEW: Zone 1 - Mission Briefing Panel */
+.mission-briefing {
+    background-color: #1a1a1a;
+    border: 1px solid var(--secondary-silver);
+    padding: 1px 25px 25px 25px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+.task-header {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    border: none;
+}
+.core-tasks-list {
+    list-style: none;
+    padding-left: 0;
+}
+.core-tasks-list li {
+    font-size: 1.1rem;
+    padding: 8px 0;
+    border-bottom: 1px dashed var(--secondary-silver);
+}
+.core-tasks-list li:last-child {
+    border-bottom: none;
+}
+.task-reward {
+    color: var(--primary-gold);
+    font-weight: bold;
+    float: right;
+}
+
+
+/* Zone 2 - Responsive Grid for 2x2 Symmetry */
+.quest-data-grid {
+    display: grid;
+    /* 2 columns on desktop, stacks on mobile */
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 40px 30px; /* Vertical and horizontal gap */
+    margin-top: 30px;
+}
+
+.log-panel {
+    background-color: #1a1a1a;
+    border: 1px solid var(--secondary-silver);
+    padding: 1px 25px 25px 25px; /* 1px top to fix margin collapse */
+    border-radius: 3px;
+}
+
+
+/*
+----------------------------------
+TABLE STYLING (THE LOG)
+----------------------------------
+*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+thead th {
+    background-color: #222222; 
+    color: var(--primary-gold);
+    padding: 12px 10px;
+    text-align: left;
+    border-bottom: 2px solid var(--primary-gold);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+tbody tr {
+    transition: background-color 0.1s;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #222; /* Darker than panel bg */
+}
+
+tbody tr:hover {
+    background-color: rgba(220, 20, 60, 0.1); 
+    color: var(--accent-red);
+    cursor: default;
+}
+
+td {
+    padding: 10px;
+    /* Dashed silver line for separation */
+    border-bottom: 1px dashed var(--secondary-silver);
+    color: var(--text-color);
+}
+
+.status-high { color: var(--accent-red); font-weight: bold; }
+.status-medium { color: var(--primary-gold); }
+.status-complete { color: var(--primary-gold); }
+.status-pending { color: var(--accent-red); }
+
+/* The Total Row uses RED for immediate importance */
+.total-row td {
+     background-color: #331111 !important; 
+     color: var(--accent-red) !important;
+     font-weight: bold;
+     text-shadow: 0 0 5px rgba(220, 20, 60, 0.5);
+     border-top: 2px solid var(--accent-red);
+     border-bottom: none !important;
+}
+
+/*
+----------------------------------
+NEW: ARTIFACTS LIST
+----------------------------------
+*/
+.artifact-list {
+    list-style: none;
+    padding-left: 0;
+}
+.artifact-list li {
+    background-color: #222;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    border: 1px solid var(--secondary-silver);
+    transition: border-color 0.2s;
+}
+.artifact-list li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.artifact-list li:hover {
+    border-color: var(--primary-gold);
+}
+.artifact-list li a strong {
+    color: var(--accent-red);
+    margin-right: 10px;
+}
+.artifact-list li a span {
+    color: var(--text-color);
+}
+.artifact-list li:hover a span {
+    color: var(--primary-gold);
+}
+
+
+/*
+----------------------------------
+NEW: ZONE 3 - MISSION DEBRIEF
+----------------------------------
+*/
+.mission-debrief {
+    background-color: #1a1a1a;
+    border: 1px solid var(--secondary-silver);
+    padding: 1px 25px 25px 25px;
+    border-radius: 3px;
+    margin-top: 40px;
+}
+.mission-debrief blockquote {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: var(--text-color);
+    margin: 0;
+    padding-left: 20px;
+    border-left: 4px solid var(--primary-gold);
+    line-height: 1.7;
+}
