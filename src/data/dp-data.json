@@ -15,29 +15,64 @@
     "⚙️ Scripting Layer Awareness",
     "💡 Advanced HTML Semantics"
   ],
-  "currentChapter": "MQ1 – HTML Syntax & Structure",
-  "currentQuestLink": "./Main-Quest/MQ1/mq1-html-basics.html",
+  "currentChapter": "MQ2 – JavaScript & Data Binding",
+  "currentQuestLink": "../Main-Quest/Missions/MQ2.md",
   "quests": [
     {
       "id": "MQ1",
       "title": "HTML Syntax & Structure",
       "status": "✅ Completed",
       "dpEarned": 200,
-      "path": "./MQ1/mq1.md"
+      "path": "../Main-Quest/Missions/MQ1.md"
     },
     {
       "id": "MQ2",
       "title": "JavaScript & Data Binding",
       "status": "🔄 In Progress",
       "dpEarned": 0,
-      "path": "./MQ2/mq2.md"
+      "path": "../Main-Quest/Missions/MQ2.md"
     },
     {
       "id": "MQ3",
       "title": "React Awakening",
       "status": "⚪ Pending",
       "dpEarned": 0,
-      "path": "./MQ3/mq3.md"
+      "path": "../Main-Quest/Missions/MQ3.md"
+    },
+    {
+      "id": "SQ1",
+      "title": "The Architect's Gauntlet",
+      "status": "✅ Completed",
+      "dpEarned": 75,
+      "path": "../Side-Quest/SQ1.md"
+    },
+    {
+      "id": "SQ2",
+      "title": "README Recruiter Polish",
+      "status": "✅ Completed",
+      "dpEarned": 25,
+      "path": "../Side-Quest/SQ2.md"
+    },
+    {
+      "id": "SQ3",
+      "title": "CSS Battle Screenshot",
+      "status": "✅ Completed",
+      "dpEarned": 50,
+      "path": "../Side-Quest/SQ3.md"
+    },
+    {
+      "id": "SQ4",
+      "title": "The Vault & Vial Project (HQ)",
+      "status": "✅ Completed",
+      "dpEarned": 200,
+      "path": "../Side-Quest/HQ.md"
+    },
+    {
+      "id": "HQ",
+      "title": "Semantic Tag Hunt",
+      "status": "✅ Completed",
+      "dpEarned": 50,
+      "path": "../Side-Quest/SQ5.md"
     }
   ],
   "chapterProgress": {
@@ -90,7 +125,7 @@
     "unlock": ["DOM Wrangler", "Logic Architect"],
     "skills": [
       { "name": "JS Fundamentals", "platform": "Scrimba", "link": "https://scrimba.com/learn/frontend" },
-      { "name": "DOM Manipulation", "platform": "Scrimba", "link": "https://scrimba.com/learn/frontend" }
+      { "name": "DOM Manipulation", "platform": "Scrimba", "link": "https://www.w3schools.com/css/css_boxmodel.asp" }
     ]
   }
 ]

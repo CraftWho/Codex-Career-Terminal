@@ -1,4 +1,4 @@
-# ⚔️ Side Quest Log: The Vault & Vial Project
+# ⚔️ Hidden Quest: The Vault & Vial Project
 
 **Quest ID**: SQ4
 **Status**: ✅ Completed
