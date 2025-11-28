@@ -5,30 +5,62 @@ document.addEventListener('DOMContentLoaded', () => {
   // This is a single data source for both the dashboard and skill tree.
   // It will eventually be loaded from your JSON file.
   const skillData = {
-    'Modular Repo Scaffolding': {
-      description: 'Ability to set up clean, scalable project structures.',
+    // --- TIER 1: THE ARCHITECT (ROOT) ---
+    'Codex Architect': {
+      description: 'The Core System. Current Status: Level 5 Web Developer. Ready for React integration.',
       unlocked: true,
-      prerequisite: null,
+      prerequisite: null
     },
+
+    // --- BRANCH 1: HTML ARCHITECTURE ---
     'Semantic HTML Fluency': {
-      description: 'Using correct HTML tags to create meaningful and accessible documents.',
+      description: 'Mastery of meaningful HTML tags (header, nav, main) for better accessibility and SEO.',
       unlocked: true,
-      prerequisite: null,
+      prerequisite: 'Codex Architect'
+    },
+    'Modular Repo Scaffolding': {
+      description: 'Ability to set up clean, scalable project structures with organized folder hierarchies.',
+      unlocked: true,
+      prerequisite: 'Semantic HTML Fluency'
     },
     'GitHub Pages Deployment': {
-      description: 'Publishing your project live for recruiter access.',
+      description: 'Pipeline established for publishing live projects directly to the web for recruiter access.',
       unlocked: true,
-      prerequisite: 'Modular Repo Scaffolding',
+      prerequisite: 'Modular Repo Scaffolding'
+    },
+
+    // --- BRANCH 2: CSS ENGINE ---
+    'CSS Fundamentals': {
+      description: 'The visual styling engine. Control over colors, typography, and the box model.',
+      unlocked: true,
+      prerequisite: 'Codex Architect'
+    },
+    'Responsive Design': {
+      description: 'Ensuring layouts adapt fluidly to mobile, tablet, and desktop screens.',
+      unlocked: true, // Unlocked via your CSS Battle side quest
+      prerequisite: 'CSS Fundamentals'
+    },
+    'Flexbox/Grid': {
+      description: 'Advanced layout modules for controlling complex positioning and alignment.',
+      unlocked: true, // Unlocked via your CSS Battle side quest
+      prerequisite: 'CSS Fundamentals'
+    },
+
+    // --- BRANCH 3: JAVASCRIPT CORE ---
+    'JavaScript Essentials': {
+      description: 'The logic layer. Variables, functions, loops, and data types.',
+      unlocked: true, // Unlocked via MQ2 Completion
+      prerequisite: 'Codex Architect'
+    },
+    'DOM Manipulation': {
+      description: 'Ability to use JS to target HTML elements and change them dynamically.',
+      unlocked: true, // Unlocked via MQ2 Completion
+      prerequisite: 'JavaScript Essentials'
     },
     'React Fundamentals': {
-      description: 'Understanding of components, props, and JSX.',
-      unlocked: false,
-      prerequisite: 'Semantic HTML Fluency',
-    },
-    'State Management': {
-      description: 'Managing application data with React hooks or Redux.',
-      unlocked: false,
-      prerequisite: 'React Fundamentals',
+      description: 'Component-based UI architecture. The ability to build reusable, state-driven interfaces.',
+      unlocked: true, // JUST UNLOCKED! (Level 5 Reward)
+      prerequisite: 'JavaScript Essentials'
     },
   };
 
@@ -44,7 +76,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const questId = urlParams.get('id');
 
     if (questId) {
-      // If a quest ID is in the URL, fetch the list to find the quest path.
+      // HIDE the list view
+      const dashboard = document.getElementById('quest-dashboard');
+      if (dashboard) dashboard.style.display = 'none';
+
+      // FETCH the specific quest
       fetch('./data/dp-data.json')
         .then(response => response.json())
         .then(data => {
@@ -57,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error fetching quests:', error));
     } else {
-      // If no quest ID, render the list of all quests.
+      // If no ID, render the lists normally
       fetch('./data/dp-data.json')
         .then(response => response.json())
         .then(data => renderQuestList(data.quests))
@@ -80,9 +116,12 @@ document.addEventListener('DOMContentLoaded', () => {
         // Find the active quest's path in the new 'quests' array
         const activeQuest = data.quests.find(q => q.status.includes('In Progress'));
         const currentQuestButton = document.getElementById('current-quest-button');
+        
         if (currentQuestButton && activeQuest) {
-          // The path is now relative to the HTML file's location
-          currentQuestButton.href = `../Main-Quest/${activeQuest.id}/${activeQuest.id.toLowerCase()}.md`;
+          // FIX: Don't link to the raw MD file. Link to the Quest Log Viewer with the ID.
+          // This allows the quest-log page to fetch and render the Markdown nicely.
+          currentQuestButton.href = `./quest-log.html?id=${activeQuest.id}`;
+          currentQuestButton.textContent = `Continue: ${activeQuest.title}`; // Optional: Update text to show quest name
         }
         renderDashboard(data);
       })
@@ -142,6 +181,8 @@ document.addEventListener('DOMContentLoaded', () => {
       { threshold: 400, level: 2 },
       { threshold: 600, level: 3 },
       { threshold: 800, level: 4 },
+      { threshold: 1100, level: 5 },
+      { threshold: 1500, level: 6 },
       // Add more levels here from your leveling-system.md
     ];
 
@@ -188,35 +229,53 @@ document.addEventListener('DOMContentLoaded', () => {
       .catch(error => console.error('Error fetching quests:', error));
   }
 
-  // This function dynamically renders a list of quests from the JSON data.
+  // This function dynamically renders a list of quests, separated by type.
   function renderQuestList(quests) {
-    const questListContainer = document.getElementById('quest-list');
-    if (!questListContainer) return;
+    // Select both containers
+    const mainListContainer = document.getElementById('main-quest-list');
+    const sideListContainer = document.getElementById('side-quest-list');
+    const dashboardContainer = document.getElementById('quest-dashboard');
+    const detailContainer = document.getElementById('quest-content');
 
-    // Clear any existing content
-    questListContainer.innerHTML = '';
+    // Safety check: Make sure containers exist
+    if (!mainListContainer || !sideListContainer) return;
 
-    // Loop through each quest in the array
+    // Ensure Dashboard is visible and Details are hidden (for List View)
+    if (dashboardContainer) dashboardContainer.style.display = 'block';
+    if (detailContainer) detailContainer.innerHTML = ''; // Clear detail view
+
+    // Clear existing content
+    mainListContainer.innerHTML = '';
+    sideListContainer.innerHTML = '';
+
+    // Loop through each quest
     quests.forEach(quest => {
-      // Create a new div for each quest
+      // Create a new div for the quest card
       const questItem = document.createElement('div');
-      questItem.classList.add('quest-item'); // Add a class for styling
+      questItem.classList.add('quest-item');
 
-      // Check if the quest is "In Progress" and add the 'active' class
+      // Highlight active quests
       if (quest.status.includes('In Progress')) {
         questItem.classList.add('active-quest');
       }
 
-      // Use a template literal to create the HTML for each quest
-      // The path is now relative to the HTML file's location
+      // Build the HTML for the card
       questItem.innerHTML = `
           <h3>${quest.title}</h3>
+          <p><strong>ID:</strong> ${quest.id}</p>
           <p><strong>Status:</strong> ${quest.status}</p>
-          <p><strong>DP Earned:</strong> +${quest.dpEarned} DP</p>
-<a href="./quest-log.html?id=${quest.id}">View Details</a>      `;
+          <p><strong>Reward:</strong> +${quest.dpEarned} DP</p>
+          <a href="./quest-log.html?id=${quest.id}">View Intel</a>
+      `;
 
-      // Add the new quest item to the list
-      questListContainer.appendChild(questItem);
+      // SORTING LOGIC:
+      // If ID starts with 'MQ', it goes to Main Campaign.
+      // Otherwise (SQ, HQ, etc.), it goes to Side Operations.
+      if (quest.id.startsWith('MQ')) {
+        mainListContainer.appendChild(questItem);
+      } else {
+        sideListContainer.appendChild(questItem);
+      }
     });
   }
 

@@ -1,10 +1,10 @@
 {
   "name": "Leo Antoine",
   "class": "Web Developer",
-  "title": "📊 Codex Architect",
-  "level": 3,
-  "dp": 750,
-  "nextlevelDP": 800,
+  "title": "⚔️ DOM Strategist",
+  "level": 5,
+  "dp": 950,
+  "nextlevelDP": 1100,
   "skills": [
     "💻 HTML Basics",
     "🎨 CSS Fundamentals",
@@ -13,10 +13,11 @@
     "🧱 DOM Manipulation",
     "🎨 GUI Design Principles",
     "⚙️ Scripting Layer Awareness",
-    "💡 Advanced HTML Semantics"
+    "💡 Advanced HTML Semantics",
+    "⚡ Fetch API & JSON"
   ],
-  "currentChapter": "MQ2 – JavaScript & Data Binding",
-  "currentQuestLink": "../Main-Quest/Missions/MQ2.md",
+  "currentChapter": "MQ3 – React Awakening",
+  "currentQuestLink": "../Main-Quest/Missions/MQ3.md",
   "quests": [
     {
       "id": "MQ1",
@@ -28,14 +29,14 @@
     {
       "id": "MQ2",
       "title": "JavaScript & Data Binding",
-      "status": "🔄 In Progress",
-      "dpEarned": 0,
+      "status": "✅ Completed",
+      "dpEarned": 200,
       "path": "../Main-Quest/Missions/MQ2.md"
     },
     {
       "id": "MQ3",
       "title": "React Awakening",
-      "status": "⚪ Pending",
+      "status": "🔄 In Progress",
       "dpEarned": 0,
       "path": "../Main-Quest/Missions/MQ3.md"
     },
@@ -85,7 +86,6 @@
       { "title": "CSS Battle Screenshot", "dp": 50, "status": "complete" },
       { "title": "The Architect's Gauntlet", "dp": 75, "status": "complete"}
     ],
-      
     "repo": {
       "file": "mq1-html-basics.html",
       "status": "complete",
@@ -105,28 +105,27 @@
     "patchNotes": [
       { "date": "2025-09-06", "change": "MQ1 Activated", "notes": "HTML structure quest launched" },
       { "date": "2025-09-06", "change": "Video lessons logged", "notes": "DP maxed at 200" },
-      { "date": "2025-09-06", "change": "Quiz deployed", "notes": "Awaiting results" },
-      { "date": "09-19-2025", "change": "Side Quest: Architect's Gauntlet completed", "notes": "Reinforced HTML fundamentals via targeted practice" }
+      { "date": "11-27-2025", "change": "MQ2 Completed", "notes": "Dynamic Dashboard and Fetch API integrated" }
     ]
   },
   "roadmap": [
-  {
-    "phase": "Core Foundations",
-    "goal": "Build semantic, responsive layouts with recruiter-grade polish",
-    "unlock": ["Markup Strategist", "Layout Sentinel"],
-    "skills": [
-      { "name": "HTML & CSS Basics", "platform": "Scrimba", "link": "https://scrimba.com/learn/frontend" },
-      { "name": "CSS Box Model", "platform": "W3Schools", "link": "https://www.w3schools.com/css/css_boxmodel.asp" }
-    ]
-  },
-  {
-    "phase": "JavaScript & DOM Mastery",
-    "goal": "Build interactive UIs and master DOM events",
-    "unlock": ["DOM Wrangler", "Logic Architect"],
-    "skills": [
-      { "name": "JS Fundamentals", "platform": "Scrimba", "link": "https://scrimba.com/learn/frontend" },
-      { "name": "DOM Manipulation", "platform": "Scrimba", "link": "https://www.w3schools.com/css/css_boxmodel.asp" }
-    ]
-  }
-]
+    {
+      "phase": "Core Foundations",
+      "goal": "Build semantic, responsive layouts with recruiter-grade polish",
+      "unlock": ["Markup Strategist", "Layout Sentinel"],
+      "skills": [
+        { "name": "HTML & CSS Basics", "platform": "Scrimba", "link": "https://scrimba.com/learn/frontend" },
+        { "name": "CSS Box Model", "platform": "W3Schools", "link": "https://www.w3schools.com/css/css_boxmodel.asp" }
+      ]
+    },
+    {
+      "phase": "JavaScript & DOM Mastery",
+      "goal": "Build interactive UIs and master DOM events",
+      "unlock": ["DOM Wrangler", "Logic Architect"],
+      "skills": [
+        { "name": "JS Fundamentals", "platform": "Scrimba", "link": "https://scrimba.com/learn/frontend" },
+        { "name": "DOM Manipulation", "platform": "Scrimba", "link": "https://www.w3schools.com/css/css_boxmodel.asp" }
+      ]
+    }
+  ]
 }
