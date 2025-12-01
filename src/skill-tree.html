@@ -21,35 +21,91 @@
   </header>
 
   <main>
-    <section id="skill-tree">
-      <ul class="tree">
-        <li>
-          <button onclick="showSkill('Modular Repo Scaffolding')">Modular Repo Scaffolding</button>
-          <ul>
-            <li>
-              <button onclick="showSkill('GitHub Pages Deployment')">GitHub Pages Deployment</button>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <button onclick="showSkill('Semantic HTML Fluency')">Semantic HTML Fluency</button>
-          <ul>
-            <li>
-              <button onclick="showSkill('React Fundamentals')">React Fundamentals</button>
-              <ul>
-                <li>
-                  <button onclick="showSkill('State Management')">State Management</button>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
+    <sectio id="skill-tree">
+      <div class="tree">
+        <ul>
+          <li>
+            <button class="skill-node root-node" onclick="showSkill('Codex Architect')">
+              <span class="icon">🧑🏾‍💼</span>
+            </button>
+            <div class="node-label">Me</div>
+
+            <ul>
+              <li>
+                <button class="skill-node" onclick="showSkill('Semantic HTML Fluency')">
+                  <span class="icon">🧱</span>
+                </button>
+                <div class="node-label">HTML Arch</div>
+
+                <ul>
+                  <li>
+                    <button class="skill-node" onclick="showSkill('Modular Repo scaffolding')">
+                      <span class="icon">🏗️</span>
+                    </button>
+                    <div class="node-label">Repo Setup</div>
+                  </li>
+                  <li>
+                    <Button class="skill-node" onclick="showSkill('CSS Fundamentals')">
+                      <span class="icon">🚀</span>                    
+                    </Button>
+                    <div class="node-label">Deploy</div>
+                  </li>
+            </ul>
+          </li>
+
+          <li>
+            <button class="skill-node" onclick="showSkill('CSS Fundamentals')">
+              <span class="icon">🎨</span>
+            </button>
+            <div class="node-label">CSS Engine</div>
+
+            <ul>
+              <li>
+                <button class="skill-node" onclick="showSkill('Responsive Design')">
+                  <span class="icon">📱</span>
+                </button>
+                <div class="node-label">Responsive</div>
+              </li>
+              <li>
+                <button class="skill-node" onclick="showSkill('Flexbox/Grid')">
+                  <span class="icon">📐</span>
+                </button>
+                <div class="node-label">layouts</div>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+                <button class="skill-node" onclick="showSkill('JavaScript Essentials')">
+                  <span class="icon">🧠</span>
+                </button>
+                <div class="node-label">JS Core</div>
+                
+                <ul>
+                   <li>
+                    <button class="skill-node" onclick="showSkill('DOM Manipulation')">
+                      <span class="icon">⚡</span>
+                    </button>
+                    <div class="node-label">DOM</div>
+                  </li>
+                  <li>
+                    <button class="skill-node" onclick="showSkill('React Fundamentals')">
+                      <span class="icon">⚛️</span>
+                    </button>
+                    <div class="node-label">React</div>
+                  </li>
+                </ul>
+              </li>
+
+            </ul>
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <section id="skill-info">
-      <h2>Skill Info</h2>
-      <p id="skill-description">Click a skill to view details.</p>
+    <section id="skill-info" class="panel-box">
+      <h2>🧠 Skill Data</h2>
+      <p id="skill-description">Select a node to analyze data.</p>
     </section>
   </main>
 </body>

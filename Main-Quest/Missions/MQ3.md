@@ -11,7 +11,7 @@
 ## 🎯 Objectives
 
 - [x] Initialize a new React project using Vite.
-- [ ] Create your first React Component (`ProfileCard.jsx`).
+- [x] Create your first React Component (`ProfileCard.jsx`).
 - [ ] Understand JSX syntax vs. standard HTML.
 - [ ] Pass data to your component using `props`.
 
