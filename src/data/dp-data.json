@@ -1,10 +1,10 @@
 {
   "name": "Leo Antoine",
   "class": "Web Developer",
-  "title": "⚔️ DOM Strategist",
-  "level": 5,
-  "dp": 950,
-  "nextlevelDP": 1100,
+  "title": "🧠 Event Architect",
+  "level": 6,
+  "dp": 1350,
+  "nextlevelDP": 1400,
   "skills": [
     "💻 HTML Basics",
     "🎨 CSS Fundamentals",
@@ -14,7 +14,10 @@
     "🎨 GUI Design Principles",
     "⚙️ Scripting Layer Awareness",
     "💡 Advanced HTML Semantics",
-    "⚡ Fetch API & JSON"
+    "⚡ Fetch API & JSON",
+    "⚛️ React  Components",
+    "🧬 Props & Data Flow"
+
   ],
   "currentChapter": "MQ3 – React Awakening",
   "currentQuestLink": "../Main-Quest/Missions/MQ3.md",
