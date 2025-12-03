@@ -176,27 +176,59 @@ document.addEventListener('DOMContentLoaded', () => {
   // This function calculates the current level and next level's DP threshold.
   // It uses the rules defined in your leveling-system.md file.
   function calculateLevel(currentDP) {
+    // The "Step-Ladder" Array
     const levels = [
-      { threshold: 200, level: 1 },
-      { threshold: 400, level: 2 },
-      { threshold: 600, level: 3 },
-      { threshold: 800, level: 4 },
-      { threshold: 1100, level: 5 },
-      { threshold: 1500, level: 6 },
-      // Add more levels here from your leveling-system.md
+      // Foundation Phase (Gap: 200)
+      { level: 1, threshold: 0 },    // Start at Lvl 1
+      { level: 2, threshold: 200 },
+      { level: 3, threshold: 400 },
+      { level: 4, threshold: 600 },
+      
+      // Ramp Up Phase (Gap: 300)
+      { level: 5, threshold: 800 },  // You are here (950 DP)
+      { level: 6, threshold: 1100 }, // Target for Lvl 6
+      
+      // Mid-Career Phase (Gap: 400)
+      { level: 7, threshold: 1400 },
+      { level: 8, threshold: 1800 },
+      
+      // Senior Push Phase (Gap: 500)
+      { level: 9, threshold: 2200 },
+      { level: 10, threshold: 2700 },
+      
+      // Lead Dev Phase (Gap: 600)
+      { level: 11, threshold: 3200 },
+      { level: 12, threshold: 3800 },
+      
+      // Architect Phase (Gap: 700)
+      { level: 13, threshold: 4400 },
+      { level: 14, threshold: 5100 },
+      
+      // Prestige Tier (Gap: 800+)
+      { level: 15, threshold: 5800 },
+      { level: 16, threshold: 6600 },
+      { level: 17, threshold: 7400 },
+      { level: 18, threshold: 8200 },
+      { level: 19, threshold: 9000 },
+      { level: 20, threshold: 10000 }
     ];
 
     let currentLevel = 1;
     let nextLevelDP = 200;
 
+    // Loop through to find your rank
     for (let i = 0; i < levels.length; i++) {
       if (currentDP >= levels[i].threshold) {
         currentLevel = levels[i].level;
+        // Check if there is a next level defined
         if (i + 1 < levels.length) {
           nextLevelDP = levels[i + 1].threshold;
         } else {
-          nextLevelDP = 'Scaling...';
+          nextLevelDP = "Max Level";
         }
+      } else {
+        // We found the ceiling, break the loop
+        break; 
       }
     }
 
