@@ -3,7 +3,7 @@
   "class": "Web Developer",
   "title": "🧠 Event Architect",
   "level": 6,
-  "dp": 1350,
+  "dp": 1500,
   "nextlevelDP": 1400,
   "skills": [
     "💻 HTML Basics",
@@ -15,33 +15,39 @@
     "⚙️ Scripting Layer Awareness",
     "💡 Advanced HTML Semantics",
     "⚡ Fetch API & JSON",
-    "⚛️ React  Components",
+    "⚛️ React Components",
     "🧬 Props & Data Flow"
-
   ],
-  "currentChapter": "MQ3 – React Awakening",
-  "currentQuestLink": "../Main-Quest/Missions/MQ3.md",
+  "currentChapter": "MQ1 – The Frontend Foundation",
+  "currentQuestLink": "../Main-Quest/Missions/MQ1.md",
   "quests": [
     {
+      "id": "GEN1",
+      "title": "Genesis I: HTML Structure (Legacy)",
+      "status": "✅ Completed",
+      "dpEarned": 200,
+      "path": "../Main-Quest/Missions/GEN1.md"
+    },
+    {
+      "id": "GEN2",
+      "title": "Genesis II: The Dashboard Core",
+      "status": "✅ Completed",
+      "dpEarned": 200,
+      "path": "../Main-Quest/Missions/GEN2.md"
+    },
+    {
+      "id": "GEN3",
+      "title": "Genesis III: React Lab Setup",
+      "status": "✅ Completed",
+      "dpEarned": 400,
+      "path": "../Main-Quest/Missions/GEN3.md"
+    },
+    {
       "id": "MQ1",
-      "title": "HTML Syntax & Structure",
-      "status": "✅ Completed",
-      "dpEarned": 200,
-      "path": "../Main-Quest/Missions/MQ1.md"
-    },
-    {
-      "id": "MQ2",
-      "title": "JavaScript & Data Binding",
-      "status": "✅ Completed",
-      "dpEarned": 200,
-      "path": "../Main-Quest/Missions/MQ2.md"
-    },
-    {
-      "id": "MQ3",
-      "title": "React Awakening",
+      "title": "The Frontend Foundation",
       "status": "🔄 In Progress",
       "dpEarned": 0,
-      "path": "../Main-Quest/Missions/MQ3.md"
+      "path": "../Main-Quest/Missions/MQ1.md"
     },
     {
       "id": "SQ1",
@@ -106,9 +112,11 @@
       { "title": "🛡️ Adept of the DOM", "ability": "Structural Nesting Discipline" }
     ],
     "patchNotes": [
-      { "date": "2025-09-06", "change": "MQ1 Activated", "notes": "HTML structure quest launched" },
-      { "date": "2025-09-06", "change": "Video lessons logged", "notes": "DP maxed at 200" },
-      { "date": "11-27-2025", "change": "MQ2 Completed", "notes": "Dynamic Dashboard and Fetch API integrated" }
+      { "date": "09-06-2025", "change": "GEN1 Activated", "notes": "HTML structure quest launched" },
+      { "date": "11-27-2025", "change": "GEN2 Completed", "notes": "Dynamic Dashboard and Fetch API integrated" },
+      { "date": "12-01-2025", "change": "GEN3 Completed", "notes": "React Lab Initialized & Components Deployed" },
+      { "date": "12-01-2025", "change": "MQ1 Started", "notes": "Scrimba Frontend Career Path Initiated" },
+      { "date": "12-03-2025", "change": "Personalized App Shipped", "notes": "completed Scrimba mod 1 Web App" }
     ]
   },
   "roadmap": [

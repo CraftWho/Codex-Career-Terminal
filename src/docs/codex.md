@@ -2,58 +2,41 @@
 
 ## 🏆 Titles Unlocked
 
-| Title                         | Date Unlocked | Source Quest           |
-|------------------------------|----------------|------------------------|
-| 🧭 Architect of Modular Systems | 2025-09-01     | Q101 – Codex Bootstrap |
-| 💼 Recruiter-Ready Initiate     | 2025-09-02     | Q102 – README Polish   |
-| 🧪 Schema Sentinel              | 2025-09-03     | Q103 – Patch Discipline|
-| 🧠 Front-End Strategist         | 2025-09-04     | Q104 – HTML/CSS Mastery|
+Reflecting the journey from Novice to Strategist.
 
-## 🧠 Abilities Gained
+| Level | Title | Date Unlocked | Source Quest |
+| :---: | :--- | :--- | :--- |
+| **1** | 🌱 **Newborn Coder** | 09-01-2025 | GEN1 – Genesis Init |
+| **2** | 🧙 **Apprentice of HTML** | 09-04-2025 | [GEN1 – HTML Structure](../Main-Quest/Missions/GEN1.md) |
+| **3** | 🛡️ **Adept of the DOM** | 09-06-2025 | [GEN1 – HTML Structure](../Main-Quest/Missions/GEN1.md) |
+| **4** | 🎨 **CSS Initiate** | 09-21-2025 | [SQ3 – CSS Battle](../Side-Quest/SQ3.md) |
+| **5** | ⚔️ **DOM Strategist** | 11-27-2025 | [GEN2 – Dashboard Core](../Main-Quest/Missions/GEN2.md) |
+| **6** | 🧠 **Event Architect** | 12-01-2025 | [GEN3 – React Setup](../Main-Quest/Missions/GEN3.md) |
 
-| Ability                      | Date Unlocked | Source Quest           |
-|-----------------------------|----------------|------------------------|
-| Modular Repo Scaffolding     | 2025-09-01     | Q101 – Codex Bootstrap |
-| Recruiter-Facing Polish      | 2025-09-02     | Q102 – README Polish   |
-| Patch Note Discipline        | 2025-09-03     | Q103 – Patch Discipline|
-| Semantic HTML Fluency        | 2025-09-04     | Q104 – HTML/CSS Mastery|
-| GitHub Pages Deployment      | 2025-09-04     | Q104 – HTML/CSS Mastery|
+---
 
-## 🌳 Skill Tree
+## 🧭 Quest Index (Archives)
 
-| Ability                     | Unlocks Next              | Status       |
-|----------------------------|---------------------------|--------------|
-| Modular Repo Scaffolding   | Component Architecture    | ✅ Learned    |
-| Recruiter-Facing Polish    | Portfolio Optimization    | ✅ Learned    |
-| Patch Note Discipline      | Automation Hooks          | ✅ Learned    |
-| Semantic HTML Fluency      | Accessibility Principles  | ✅ Learned    |
-| GitHub Pages Deployment    | CI/CD Integration         | ⚪ Pending    |
-| React Fundamentals         | State Management          | ⚪ Pending    |
+Full history of all operations.
 
-## 📅 Phase Progression
+| ID | Title | Status | DP | Link |
+| :--- | :--- | :--- | :--- | :--- |
+| **GEN1** | Genesis I: HTML Structure | ✅ Completed | 200 | [View Log](../Main-Quest/Missions/GEN1.md) |
+| **GEN2** | Genesis II: Dashboard Core | ✅ Completed | 200 | [View Log](../Main-Quest/Missions/GEN2.md) |
+| **GEN3** | Genesis III: React Lab Setup | ✅ Completed | 400 | [View Log](../Main-Quest/Missions/GEN3.md) |
+| **MQ1** | The Frontend Foundation | 🔄 **Active** | 0 | [View Log](../Main-Quest/Missions/MQ1.md) |
+| **SQ1** | The Architect's Gauntlet | ✅ Completed | 75 | [View Log](../Side-Quest/SQ1.md) |
+| **SQ2** | README Recruiter Polish | ✅ Completed | 25 | [View Log](../Side-Quest/SQ2.md) |
+| **SQ3** | CSS Battle Screenshot | ✅ Completed | 50 | [View Log](../Side-Quest/SQ3.md) |
+| **SQ4** | The Vault & Vial (HQ) | ✅ Completed | 200 | [View Log](../Side-Quest/HQ.md) |
 
-| Phase | Focus Area              | Status       |
-|-------|-------------------------|--------------|
-| 1     | HTML/CSS Foundations    | ✅ Complete   |
-| 2     | JavaScript Basics       | 🔄 In Progress|
-| 3     | React & Components      | ⚪ Pending    |
-| 4     | Portfolio Polish        | ⚪ Pending    |
-| 5     | Final Deployment        | ⚪ Pending    |
-
-## 🧭 Quest Index
-
-| Quest ID | Title                      | Status       | Time Spent | Link |
-|----------|----------------------------|--------------|------------|------|
-| Q101     | Codex Bootstrap            | ✅ Completed  | ~2h        | [View](quests/Q101_Codex_Bootstrap.md) |
-| Q102     | README Polish              | ✅ Completed  | ~1h        | [View](quests/Q102_README_Polish.md) |
-| Q103     | Patch Discipline           | ✅ Completed  | ~1.5h      | [View](quests/Q103_Patch_Discipline.md) |
-| Q104     | HTML/CSS Mastery           | ✅ Completed  | ~2h        | [View](quests/Q104_HTML_CSS_Mastery.md) |
+---
 
 ## 🛠️ Patch Notes
 
-| Date       | Change                                 | Notes                                 |
-|------------|----------------------------------------|----------------------------------------|
-| 2025-09-01 | Created `career-codex.md`              | Tracker scaffold for career progression |
-| 2025-09-02 | Added README polish and recruiter tags | Improved recruiter visibility           |
-| 2025-09-03 | Logged patch discipline module         | Enabled traceable schema logging       |
-| 2025-09-04 | Logged HTML/CSS mastery quest          | Added semantic fluency and deployment  |
+| Date | Version | Change | Notes |
+| :--- | :--- | :--- | :--- |
+| 09-01-2025 | v0.1 | **System Init** | Created career tracker scaffold. |
+| 11-27-2025 | v0.5 | **Logic Upgrade** | Dashboard now uses dynamic JSON. |
+| 12-01-2025 | v0.6 | **React Init** | Vite Lab created. Level 6 reached. |
+| 12-03-2025 | v1.0 | **The Genesis Pivot** | Refactored history to GEN1-3. Started Scrimba Path. |

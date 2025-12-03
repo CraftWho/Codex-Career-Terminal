@@ -1,80 +1,47 @@
-# 🧠 MQ1 – HTML Syntax & Structure
-  
-🎮 Max DP from Lessons: 200  
-🔓 Codex Unlocks: 🧙 Apprentice of HTML, 🛡️ Adept of the DOM  
-📅 Date Started: 09/06/2025  
-📅 Date Completed: — (In Progress)
+# 🧭 MQ1 – The Frontend Foundation
+
+🎮 Max DP from Lessons: 300
+🔓 Codex Unlocks: 🏗️ Layout Architect, 🚀 Deployment Initiate
+🛡️ Status: 🔄 In Progress
+📅 Date Started: 12/03/2025
+📅 Date Completed: —
 
 ---
 
 ## 🎯 Objective
 
-Master the foundational structure of HTML using semantic tags, proper nesting, and document architecture. This quest sets the groundwork for all future UI development and aligns directly with recruiter expectations for clean, accessible markup.
+Establish the absolute bedrock of web development by completing Module 1 of the Scrimba Frontend Career Path. This mission focuses on understanding the Scrimba environment and deploying your first personalized web application.
 
 ---
 
 ## 📺 Scrimba Lesson Breakdown
 
-📦 Source: [Scrimba – Introduction to HTML](https://scrimba.com/introduction-to-html-c02e)
+📦 Source: [Scrimba – Frontend Developer Career Path](https://scrimba.com/learn/frontend)
 
-| Lesson Title                      | Relevance | DP Earned | Date Completed |
-|----------------------------------|-----------|-----------|----------------|
-| Creating an HTML Document        | 🟢 High   | +75 DP    | 09/06/2025     |
-| Nesting HTML Elements            | 🟢 High   | +75 DP    | 09/06/2025     |
-| Head Elements & Scripts in HTML  | 🟡 Medium | +50 DP    | 09/06/2025     |
+| Lesson Title (Module Focus)       | Relevance | DP Earned | Date Completed |
+|-----------------------------------|-----------|-----------|----------------|
+| **1. Getting Started** | 🟢 High   | +50 DP    | ✅ 12/03/2025     |
+| **2. Personalized Web App** | 🟢 High   | +100 DP   | ✅ 12/03/2025     |
+| **3. HTML & CSS Basics** | 🟢 High   | +150 DP   | ⬜ Pending     |
 
-🧱 **Total DP from Lessons:** 200 (Maxed)
+🧱 **Total Potential DP:** 300
 
 ---
 
 ## 🛠️ Repo Task
 
-📄 File: `mq1-html-basics.html`  
-✅ Must include:
+📄 Folder: `Codex-Career-Terminal/Frontend-Labs/00-PersonalSite`
+✅ **Requirements:**
 
-- Full semantic structure
-- Comment block with codex version
-- At least 3 semantic tags
-- Proper indentation and nesting
+- Follow the Scrimba instructions to customize the sample app.
+- Change the background, emoji, and text.
+- **Goal:** Understand how HTML/CSS affect the visual output.
 
-🎯 DP Earned: +50 (outside chapter cap)  
-📅 Date Completed: 09/06/2025
-
----
-
-## ❓ Quiz Challenge
-
-📄 File: `mq1-quiz.md`  
-✅ 10 questions on HTML syntax and semantics  
-🎯 DP Earned: +100 (perfect score) or +50 (partial)  
-📅 Date Completed: — (Pending)
+🎯 DP Earned: +50 (Quick Win)
+📅 Date Completed: —
 
 ---
 
-## 🧩 Side Quests
+## 🧠 Reflection
 
-| SQ ID | Title                      | DP Earned | Status     | Date Completed |
-|-------|----------------------------|-----------|------------|----------------|
-| SQ1   | Semantic Tag Hunt          | +50 DP    | ✅ Complete | 09/19/2025     |
-| SQ2   | README Recruiter Polish    | +25 DP    | ⬜ Pending  | —              |
-| SQ3   | CSS Battle Screenshot      | +50 DP    | ⬜ Pending  | —              |
-
----
-
-## 🧾 Patch Notes
-
-| Date       | Change                                | Notes                                  |
-|------------|----------------------------------------|----------------------------------------|
-| 09/06/2025 | MQ1 Activated                          | HTML structure quest launched          |
-| 09/06/2025 | Scrimba lessons completed              | DP maxed at 200                        |
-| 09/06/2025 | Repo task completed                    | Semantic layout scaffolded             |
-| 09/06/2025 | Side quest SQ1 completed               | Semantic tags documented               |
-
----
-
-## 🔓 Codex Unlocks
-
-| Title                  | Ability Unlocked              | Date Earned |
-|------------------------|-------------------------------|-------------|
-| 🧙 Apprentice of HTML   | Semantic Markup Mastery       | 09/06/2025  |
-| 🛡️ Adept of the DOM     | Structural Nesting Discipline | 09/06/2025  |
+*Log your thoughts here as you review the basics...*
