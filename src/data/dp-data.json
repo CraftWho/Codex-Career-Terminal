@@ -1,9 +1,9 @@
 {
   "name": "Leo Antoine",
   "class": "Web Developer",
-  "title": "🧠 Event Architect",
+  "title": "📱Responsive Engineer",
   "level": 6,
-  "dp": 1500,
+  "dp": 1650,
   "nextlevelDP": 1400,
   "skills": [
     "💻 HTML Basics",
@@ -16,9 +16,10 @@
     "💡 Advanced HTML Semantics",
     "⚡ Fetch API & JSON",
     "⚛️ React Components",
-    "🧬 Props & Data Flow"
+    "🧬 Props & Data Flow",
+    "🏗️ HTML Structure"
   ],
-  "currentChapter": "MQ1 – The Frontend Foundation",
+  "currentChapter": "MQ1 – Web Dev Basics",
   "currentQuestLink": "../Main-Quest/Missions/MQ1.md",
   "quests": [
     {
@@ -46,7 +47,7 @@
       "id": "MQ1",
       "title": "The Frontend Foundation",
       "status": "🔄 In Progress",
-      "dpEarned": 0,
+      "dpEarned": 150,
       "path": "../Main-Quest/Missions/MQ1.md"
     },
     {
