@@ -353,3 +353,9 @@ footer {
 .tree li:hover > ul::before {
     border-left-color: #DC143C;
 }
+
+/* Hides the specific skills list on the dashboard */
+#skills {
+  display: none;
+}
+

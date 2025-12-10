@@ -8,9 +8,9 @@ This codex is the central command for my tactical development. It tracks my prog
 ## 🧑🏾‍💼 Current Status
 
 - **Class:** 🧑🏾‍💼 Codex Architect
-- **Level:** 6 (Tier 0)
-- **Developer Points (DP):** 1,350
-- **Next Level:** 1,400 DP
+- **Level:** 7 (Tier 0)
+- **Developer Points (DP):** 1,500
+- **Next Level:** 1,800 DP
 - **Status:** 🟢 Active
 - 🔗 [View DP Log](src/docs/DP-Log.md) | [View Skill Tree](src/docs/skill-tree.md) | [View Codex](src/docs/codex.md)
 
