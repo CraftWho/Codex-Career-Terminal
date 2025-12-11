@@ -354,8 +354,16 @@ footer {
     border-left-color: #DC143C;
 }
 
-/* Hides the specific skills list on the dashboard */
+/* Removes bullet points and indentation from both lists */
+#rpg-stats ul,
 #skills {
-  display: none;
+  list-style: none;      /* Hides the dots */
+  padding-left: 0;       /* Removes empty space on the left */
+  margin: 0;             /* Ensures they sit flush against the container */
 }
 
+/* Optional: Adds spacing between items for better readability */
+#rpg-stats li,
+#skills li {
+  margin-bottom: 8px;
+}
